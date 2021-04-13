@@ -26,5 +26,10 @@ namespace UserControlCalendar
             }
             cmbYear.SelectedItem = string.Format("Year-{0}", DateTime.Now.Year);
         }
+
+        private void calendar1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
