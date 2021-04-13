@@ -16,5 +16,15 @@ namespace UserControlCalendar
         {
             InitializeComponent();
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 85; i++)
+            {
+                int year = 2015 + i;
+                cmbYear.Items.Add(string.Format("Year-{0}",year));
+            }
+            cmbYear.SelectedItem = string.Format("Year-{0}", DateTime.Now.Year);
+        }
     }
 }
