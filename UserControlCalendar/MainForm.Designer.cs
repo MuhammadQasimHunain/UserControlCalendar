@@ -51,15 +51,18 @@
             this.cmbYear.Name = "cmbYear";
             this.cmbYear.Size = new System.Drawing.Size(172, 24);
             this.cmbYear.TabIndex = 2;
+            this.cmbYear.SelectedIndexChanged += new System.EventHandler(this.cmbYear_SelectedIndexChanged_1);
             // 
             // calendar1
             // 
+            this.calendar1.AutoSize = true;
+            this.calendar1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.calendar1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.calendar1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("calendar1.BackgroundImage")));
             this.calendar1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.calendar1.Location = new System.Drawing.Point(24, 57);
             this.calendar1.Name = "calendar1";
-            this.calendar1.Size = new System.Drawing.Size(1264, 905);
+            this.calendar1.Size = new System.Drawing.Size(1402, 929);
             this.calendar1.TabIndex = 0;
             this.calendar1.Load += new System.EventHandler(this.calendar1_Load);
             // 
@@ -77,6 +80,7 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

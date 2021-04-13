@@ -79,13 +79,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Calendar-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\CalendarUserControl\CalendarUserControl.csproj">
       <Project>{a5d86abd-e851-4f05-bcc4-e654da175c90}</Project>
       <Name>CalendarUserControl</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Calendar-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -288,14 +288,14 @@
             this.lblJul3 = new System.Windows.Forms.Label();
             this.lblJul2 = new System.Windows.Forms.Label();
             this.lblJul1 = new System.Windows.Forms.Label();
-            this.lblAug38 = new System.Windows.Forms.Label();
             this.lblAug37 = new System.Windows.Forms.Label();
-            this.lblAug35 = new System.Windows.Forms.Label();
+            this.lblAug36 = new System.Windows.Forms.Label();
             this.lblAug34 = new System.Windows.Forms.Label();
             this.lblAug33 = new System.Windows.Forms.Label();
+            this.lblAug32 = new System.Windows.Forms.Label();
             this.lblAug31 = new System.Windows.Forms.Label();
             this.lblAug30 = new System.Windows.Forms.Label();
-            this.lblAug36 = new System.Windows.Forms.Label();
+            this.lblAug35 = new System.Windows.Forms.Label();
             this.lblAug29 = new System.Windows.Forms.Label();
             this.lblAug27 = new System.Windows.Forms.Label();
             this.lblAug26 = new System.Windows.Forms.Label();
@@ -488,6 +488,8 @@
             this.lblJan1.Size = new System.Drawing.Size(108, 18);
             this.lblJan1.TabIndex = 0;
             this.lblJan1.Text = "                         ";
+            this.lblJan1.UseWaitCursor = true;
+            this.lblJan1.Click += new System.EventHandler(this.LabelOnClick);
             // 
             // lblJan2
             // 
@@ -502,6 +504,7 @@
             this.lblJan2.Size = new System.Drawing.Size(108, 18);
             this.lblJan2.TabIndex = 1;
             this.lblJan2.Text = "                         ";
+            this.lblJan2.UseWaitCursor = true;
             // 
             // lblJan3
             // 
@@ -516,6 +519,7 @@
             this.lblJan3.Size = new System.Drawing.Size(108, 18);
             this.lblJan3.TabIndex = 2;
             this.lblJan3.Text = "                         ";
+            this.lblJan3.UseWaitCursor = true;
             // 
             // lblJan4
             // 
@@ -530,6 +534,7 @@
             this.lblJan4.Size = new System.Drawing.Size(108, 18);
             this.lblJan4.TabIndex = 3;
             this.lblJan4.Text = "                         ";
+            this.lblJan4.UseWaitCursor = true;
             // 
             // lblJan5
             // 
@@ -544,6 +549,7 @@
             this.lblJan5.Size = new System.Drawing.Size(108, 18);
             this.lblJan5.TabIndex = 4;
             this.lblJan5.Text = "                         ";
+            this.lblJan5.UseWaitCursor = true;
             // 
             // lblJan6
             // 
@@ -558,6 +564,7 @@
             this.lblJan6.Size = new System.Drawing.Size(108, 18);
             this.lblJan6.TabIndex = 5;
             this.lblJan6.Text = "                         ";
+            this.lblJan6.UseWaitCursor = true;
             // 
             // lblJan7
             // 
@@ -572,6 +579,7 @@
             this.lblJan7.Size = new System.Drawing.Size(108, 18);
             this.lblJan7.TabIndex = 6;
             this.lblJan7.Text = "                         ";
+            this.lblJan7.UseWaitCursor = true;
             // 
             // lblJan14
             // 
@@ -586,6 +594,7 @@
             this.lblJan14.Size = new System.Drawing.Size(108, 18);
             this.lblJan14.TabIndex = 7;
             this.lblJan14.Text = "                         ";
+            this.lblJan14.UseWaitCursor = true;
             // 
             // lblJan21
             // 
@@ -600,6 +609,7 @@
             this.lblJan21.Size = new System.Drawing.Size(108, 18);
             this.lblJan21.TabIndex = 8;
             this.lblJan21.Text = "                         ";
+            this.lblJan21.UseWaitCursor = true;
             // 
             // lblJan28
             // 
@@ -614,6 +624,7 @@
             this.lblJan28.Size = new System.Drawing.Size(108, 18);
             this.lblJan28.TabIndex = 9;
             this.lblJan28.Text = "                         ";
+            this.lblJan28.UseWaitCursor = true;
             // 
             // lblJan8
             // 
@@ -628,6 +639,7 @@
             this.lblJan8.Size = new System.Drawing.Size(108, 18);
             this.lblJan8.TabIndex = 10;
             this.lblJan8.Text = "                         ";
+            this.lblJan8.UseWaitCursor = true;
             // 
             // lblJan9
             // 
@@ -642,6 +654,7 @@
             this.lblJan9.Size = new System.Drawing.Size(108, 18);
             this.lblJan9.TabIndex = 11;
             this.lblJan9.Text = "                         ";
+            this.lblJan9.UseWaitCursor = true;
             // 
             // lblJan10
             // 
@@ -656,6 +669,7 @@
             this.lblJan10.Size = new System.Drawing.Size(108, 18);
             this.lblJan10.TabIndex = 12;
             this.lblJan10.Text = "                         ";
+            this.lblJan10.UseWaitCursor = true;
             // 
             // lblJan11
             // 
@@ -670,6 +684,7 @@
             this.lblJan11.Size = new System.Drawing.Size(108, 18);
             this.lblJan11.TabIndex = 13;
             this.lblJan11.Text = "                         ";
+            this.lblJan11.UseWaitCursor = true;
             // 
             // lblJan12
             // 
@@ -684,6 +699,7 @@
             this.lblJan12.Size = new System.Drawing.Size(108, 18);
             this.lblJan12.TabIndex = 14;
             this.lblJan12.Text = "                         ";
+            this.lblJan12.UseWaitCursor = true;
             // 
             // lblJan13
             // 
@@ -698,6 +714,7 @@
             this.lblJan13.Size = new System.Drawing.Size(108, 18);
             this.lblJan13.TabIndex = 15;
             this.lblJan13.Text = "                         ";
+            this.lblJan13.UseWaitCursor = true;
             // 
             // lblJan15
             // 
@@ -712,6 +729,7 @@
             this.lblJan15.Size = new System.Drawing.Size(108, 18);
             this.lblJan15.TabIndex = 16;
             this.lblJan15.Text = "                         ";
+            this.lblJan15.UseWaitCursor = true;
             // 
             // lblJan16
             // 
@@ -726,6 +744,7 @@
             this.lblJan16.Size = new System.Drawing.Size(108, 18);
             this.lblJan16.TabIndex = 17;
             this.lblJan16.Text = "                         ";
+            this.lblJan16.UseWaitCursor = true;
             // 
             // lblJan17
             // 
@@ -740,6 +759,7 @@
             this.lblJan17.Size = new System.Drawing.Size(108, 18);
             this.lblJan17.TabIndex = 18;
             this.lblJan17.Text = "                         ";
+            this.lblJan17.UseWaitCursor = true;
             // 
             // lblJan18
             // 
@@ -754,6 +774,7 @@
             this.lblJan18.Size = new System.Drawing.Size(108, 18);
             this.lblJan18.TabIndex = 19;
             this.lblJan18.Text = "                         ";
+            this.lblJan18.UseWaitCursor = true;
             // 
             // lblJan19
             // 
@@ -768,6 +789,7 @@
             this.lblJan19.Size = new System.Drawing.Size(108, 18);
             this.lblJan19.TabIndex = 20;
             this.lblJan19.Text = "                         ";
+            this.lblJan19.UseWaitCursor = true;
             // 
             // lblJan20
             // 
@@ -782,6 +804,7 @@
             this.lblJan20.Size = new System.Drawing.Size(108, 18);
             this.lblJan20.TabIndex = 21;
             this.lblJan20.Text = "                         ";
+            this.lblJan20.UseWaitCursor = true;
             // 
             // lblJan22
             // 
@@ -796,6 +819,7 @@
             this.lblJan22.Size = new System.Drawing.Size(108, 18);
             this.lblJan22.TabIndex = 22;
             this.lblJan22.Text = "                         ";
+            this.lblJan22.UseWaitCursor = true;
             // 
             // lblJan23
             // 
@@ -810,6 +834,7 @@
             this.lblJan23.Size = new System.Drawing.Size(108, 18);
             this.lblJan23.TabIndex = 23;
             this.lblJan23.Text = "                         ";
+            this.lblJan23.UseWaitCursor = true;
             // 
             // lblJan24
             // 
@@ -824,6 +849,7 @@
             this.lblJan24.Size = new System.Drawing.Size(108, 18);
             this.lblJan24.TabIndex = 24;
             this.lblJan24.Text = "                         ";
+            this.lblJan24.UseWaitCursor = true;
             // 
             // lblJan25
             // 
@@ -838,6 +864,7 @@
             this.lblJan25.Size = new System.Drawing.Size(108, 18);
             this.lblJan25.TabIndex = 25;
             this.lblJan25.Text = "                         ";
+            this.lblJan25.UseWaitCursor = true;
             // 
             // lblJan26
             // 
@@ -852,6 +879,7 @@
             this.lblJan26.Size = new System.Drawing.Size(108, 18);
             this.lblJan26.TabIndex = 26;
             this.lblJan26.Text = "                         ";
+            this.lblJan26.UseWaitCursor = true;
             // 
             // lblJan27
             // 
@@ -866,6 +894,7 @@
             this.lblJan27.Size = new System.Drawing.Size(108, 18);
             this.lblJan27.TabIndex = 27;
             this.lblJan27.Text = "                         ";
+            this.lblJan27.UseWaitCursor = true;
             // 
             // lblJan29
             // 
@@ -880,7 +909,7 @@
             this.lblJan29.Size = new System.Drawing.Size(108, 18);
             this.lblJan29.TabIndex = 28;
             this.lblJan29.Text = "                         ";
-            this.lblJan29.Click += new System.EventHandler(this.lblJan29_Click);
+            this.lblJan29.UseWaitCursor = true;
             // 
             // lblJan34
             // 
@@ -895,6 +924,7 @@
             this.lblJan34.Size = new System.Drawing.Size(108, 18);
             this.lblJan34.TabIndex = 34;
             this.lblJan34.Text = "                         ";
+            this.lblJan34.UseWaitCursor = true;
             // 
             // lblJan33
             // 
@@ -909,6 +939,7 @@
             this.lblJan33.Size = new System.Drawing.Size(108, 18);
             this.lblJan33.TabIndex = 33;
             this.lblJan33.Text = "                         ";
+            this.lblJan33.UseWaitCursor = true;
             // 
             // lblJan32
             // 
@@ -923,6 +954,7 @@
             this.lblJan32.Size = new System.Drawing.Size(108, 18);
             this.lblJan32.TabIndex = 32;
             this.lblJan32.Text = "                         ";
+            this.lblJan32.UseWaitCursor = true;
             // 
             // lblJan31
             // 
@@ -937,6 +969,7 @@
             this.lblJan31.Size = new System.Drawing.Size(108, 18);
             this.lblJan31.TabIndex = 31;
             this.lblJan31.Text = "                         ";
+            this.lblJan31.UseWaitCursor = true;
             // 
             // lblJan30
             // 
@@ -951,6 +984,7 @@
             this.lblJan30.Size = new System.Drawing.Size(108, 18);
             this.lblJan30.TabIndex = 30;
             this.lblJan30.Text = "                         ";
+            this.lblJan30.UseWaitCursor = true;
             // 
             // lblJan35
             // 
@@ -965,6 +999,7 @@
             this.lblJan35.Size = new System.Drawing.Size(108, 18);
             this.lblJan35.TabIndex = 29;
             this.lblJan35.Text = "                         ";
+            this.lblJan35.UseWaitCursor = true;
             // 
             // lblJan37
             // 
@@ -979,6 +1014,7 @@
             this.lblJan37.Size = new System.Drawing.Size(108, 18);
             this.lblJan37.TabIndex = 36;
             this.lblJan37.Text = "                         ";
+            this.lblJan37.UseWaitCursor = true;
             // 
             // lblJan36
             // 
@@ -993,6 +1029,7 @@
             this.lblJan36.Size = new System.Drawing.Size(108, 18);
             this.lblJan36.TabIndex = 35;
             this.lblJan36.Text = "                         ";
+            this.lblJan36.UseWaitCursor = true;
             // 
             // lblFeb37
             // 
@@ -1007,6 +1044,7 @@
             this.lblFeb37.Size = new System.Drawing.Size(108, 18);
             this.lblFeb37.TabIndex = 73;
             this.lblFeb37.Text = "                         ";
+            this.lblFeb37.UseWaitCursor = true;
             // 
             // lblFeb36
             // 
@@ -1021,6 +1059,7 @@
             this.lblFeb36.Size = new System.Drawing.Size(108, 18);
             this.lblFeb36.TabIndex = 72;
             this.lblFeb36.Text = "                         ";
+            this.lblFeb36.UseWaitCursor = true;
             // 
             // lblFeb34
             // 
@@ -1035,6 +1074,7 @@
             this.lblFeb34.Size = new System.Drawing.Size(108, 18);
             this.lblFeb34.TabIndex = 71;
             this.lblFeb34.Text = "                         ";
+            this.lblFeb34.UseWaitCursor = true;
             // 
             // lblFeb33
             // 
@@ -1049,6 +1089,7 @@
             this.lblFeb33.Size = new System.Drawing.Size(108, 18);
             this.lblFeb33.TabIndex = 70;
             this.lblFeb33.Text = "                         ";
+            this.lblFeb33.UseWaitCursor = true;
             // 
             // lblFeb32
             // 
@@ -1063,6 +1104,7 @@
             this.lblFeb32.Size = new System.Drawing.Size(108, 18);
             this.lblFeb32.TabIndex = 69;
             this.lblFeb32.Text = "                         ";
+            this.lblFeb32.UseWaitCursor = true;
             // 
             // lblFeb31
             // 
@@ -1077,6 +1119,7 @@
             this.lblFeb31.Size = new System.Drawing.Size(108, 18);
             this.lblFeb31.TabIndex = 68;
             this.lblFeb31.Text = "                         ";
+            this.lblFeb31.UseWaitCursor = true;
             // 
             // lblFeb30
             // 
@@ -1091,6 +1134,7 @@
             this.lblFeb30.Size = new System.Drawing.Size(108, 18);
             this.lblFeb30.TabIndex = 67;
             this.lblFeb30.Text = "                         ";
+            this.lblFeb30.UseWaitCursor = true;
             // 
             // lblFeb35
             // 
@@ -1105,6 +1149,7 @@
             this.lblFeb35.Size = new System.Drawing.Size(108, 18);
             this.lblFeb35.TabIndex = 66;
             this.lblFeb35.Text = "                         ";
+            this.lblFeb35.UseWaitCursor = true;
             // 
             // lblFeb29
             // 
@@ -1119,6 +1164,7 @@
             this.lblFeb29.Size = new System.Drawing.Size(108, 18);
             this.lblFeb29.TabIndex = 65;
             this.lblFeb29.Text = "                         ";
+            this.lblFeb29.UseWaitCursor = true;
             // 
             // lblFeb27
             // 
@@ -1133,6 +1179,7 @@
             this.lblFeb27.Size = new System.Drawing.Size(108, 18);
             this.lblFeb27.TabIndex = 64;
             this.lblFeb27.Text = "                         ";
+            this.lblFeb27.UseWaitCursor = true;
             // 
             // lblFeb26
             // 
@@ -1147,6 +1194,7 @@
             this.lblFeb26.Size = new System.Drawing.Size(108, 18);
             this.lblFeb26.TabIndex = 63;
             this.lblFeb26.Text = "                         ";
+            this.lblFeb26.UseWaitCursor = true;
             // 
             // lblFeb25
             // 
@@ -1161,6 +1209,7 @@
             this.lblFeb25.Size = new System.Drawing.Size(108, 18);
             this.lblFeb25.TabIndex = 62;
             this.lblFeb25.Text = "                         ";
+            this.lblFeb25.UseWaitCursor = true;
             // 
             // lblFeb24
             // 
@@ -1175,6 +1224,7 @@
             this.lblFeb24.Size = new System.Drawing.Size(108, 18);
             this.lblFeb24.TabIndex = 61;
             this.lblFeb24.Text = "                         ";
+            this.lblFeb24.UseWaitCursor = true;
             // 
             // lblFeb23
             // 
@@ -1189,6 +1239,7 @@
             this.lblFeb23.Size = new System.Drawing.Size(108, 18);
             this.lblFeb23.TabIndex = 60;
             this.lblFeb23.Text = "                         ";
+            this.lblFeb23.UseWaitCursor = true;
             // 
             // lblFeb22
             // 
@@ -1203,6 +1254,7 @@
             this.lblFeb22.Size = new System.Drawing.Size(108, 18);
             this.lblFeb22.TabIndex = 59;
             this.lblFeb22.Text = "                         ";
+            this.lblFeb22.UseWaitCursor = true;
             // 
             // lblFeb20
             // 
@@ -1217,6 +1269,7 @@
             this.lblFeb20.Size = new System.Drawing.Size(108, 18);
             this.lblFeb20.TabIndex = 58;
             this.lblFeb20.Text = "                         ";
+            this.lblFeb20.UseWaitCursor = true;
             // 
             // lblFeb19
             // 
@@ -1231,6 +1284,7 @@
             this.lblFeb19.Size = new System.Drawing.Size(108, 18);
             this.lblFeb19.TabIndex = 57;
             this.lblFeb19.Text = "                         ";
+            this.lblFeb19.UseWaitCursor = true;
             // 
             // lblFeb17
             // 
@@ -1245,6 +1299,7 @@
             this.lblFeb17.Size = new System.Drawing.Size(108, 18);
             this.lblFeb17.TabIndex = 56;
             this.lblFeb17.Text = "                         ";
+            this.lblFeb17.UseWaitCursor = true;
             // 
             // lblFeb18
             // 
@@ -1259,6 +1314,7 @@
             this.lblFeb18.Size = new System.Drawing.Size(108, 18);
             this.lblFeb18.TabIndex = 55;
             this.lblFeb18.Text = "                         ";
+            this.lblFeb18.UseWaitCursor = true;
             // 
             // lblFeb16
             // 
@@ -1273,6 +1329,7 @@
             this.lblFeb16.Size = new System.Drawing.Size(108, 18);
             this.lblFeb16.TabIndex = 54;
             this.lblFeb16.Text = "                         ";
+            this.lblFeb16.UseWaitCursor = true;
             // 
             // lblFeb15
             // 
@@ -1287,6 +1344,7 @@
             this.lblFeb15.Size = new System.Drawing.Size(108, 18);
             this.lblFeb15.TabIndex = 53;
             this.lblFeb15.Text = "                         ";
+            this.lblFeb15.UseWaitCursor = true;
             // 
             // lblFeb13
             // 
@@ -1301,6 +1359,7 @@
             this.lblFeb13.Size = new System.Drawing.Size(108, 18);
             this.lblFeb13.TabIndex = 52;
             this.lblFeb13.Text = "                         ";
+            this.lblFeb13.UseWaitCursor = true;
             // 
             // lblFeb12
             // 
@@ -1315,6 +1374,7 @@
             this.lblFeb12.Size = new System.Drawing.Size(108, 18);
             this.lblFeb12.TabIndex = 51;
             this.lblFeb12.Text = "                         ";
+            this.lblFeb12.UseWaitCursor = true;
             // 
             // lblFeb11
             // 
@@ -1329,6 +1389,7 @@
             this.lblFeb11.Size = new System.Drawing.Size(108, 18);
             this.lblFeb11.TabIndex = 50;
             this.lblFeb11.Text = "                         ";
+            this.lblFeb11.UseWaitCursor = true;
             // 
             // lblFeb10
             // 
@@ -1343,6 +1404,7 @@
             this.lblFeb10.Size = new System.Drawing.Size(108, 18);
             this.lblFeb10.TabIndex = 49;
             this.lblFeb10.Text = "                         ";
+            this.lblFeb10.UseWaitCursor = true;
             // 
             // lblFeb9
             // 
@@ -1357,6 +1419,7 @@
             this.lblFeb9.Size = new System.Drawing.Size(108, 18);
             this.lblFeb9.TabIndex = 48;
             this.lblFeb9.Text = "                         ";
+            this.lblFeb9.UseWaitCursor = true;
             // 
             // lblFeb8
             // 
@@ -1371,6 +1434,7 @@
             this.lblFeb8.Size = new System.Drawing.Size(108, 18);
             this.lblFeb8.TabIndex = 47;
             this.lblFeb8.Text = "                         ";
+            this.lblFeb8.UseWaitCursor = true;
             // 
             // lblFeb28
             // 
@@ -1385,6 +1449,7 @@
             this.lblFeb28.Size = new System.Drawing.Size(108, 18);
             this.lblFeb28.TabIndex = 46;
             this.lblFeb28.Text = "                         ";
+            this.lblFeb28.UseWaitCursor = true;
             // 
             // lblFeb21
             // 
@@ -1399,6 +1464,7 @@
             this.lblFeb21.Size = new System.Drawing.Size(108, 18);
             this.lblFeb21.TabIndex = 45;
             this.lblFeb21.Text = "                         ";
+            this.lblFeb21.UseWaitCursor = true;
             // 
             // lblFeb14
             // 
@@ -1413,6 +1479,7 @@
             this.lblFeb14.Size = new System.Drawing.Size(108, 18);
             this.lblFeb14.TabIndex = 44;
             this.lblFeb14.Text = "                         ";
+            this.lblFeb14.UseWaitCursor = true;
             // 
             // lblFeb7
             // 
@@ -1427,6 +1494,7 @@
             this.lblFeb7.Size = new System.Drawing.Size(108, 18);
             this.lblFeb7.TabIndex = 43;
             this.lblFeb7.Text = "                         ";
+            this.lblFeb7.UseWaitCursor = true;
             // 
             // lblFeb6
             // 
@@ -1441,6 +1509,7 @@
             this.lblFeb6.Size = new System.Drawing.Size(108, 18);
             this.lblFeb6.TabIndex = 42;
             this.lblFeb6.Text = "                         ";
+            this.lblFeb6.UseWaitCursor = true;
             // 
             // lblFeb5
             // 
@@ -1455,6 +1524,7 @@
             this.lblFeb5.Size = new System.Drawing.Size(108, 18);
             this.lblFeb5.TabIndex = 41;
             this.lblFeb5.Text = "                         ";
+            this.lblFeb5.UseWaitCursor = true;
             // 
             // lblFeb4
             // 
@@ -1469,6 +1539,7 @@
             this.lblFeb4.Size = new System.Drawing.Size(108, 18);
             this.lblFeb4.TabIndex = 40;
             this.lblFeb4.Text = "                         ";
+            this.lblFeb4.UseWaitCursor = true;
             // 
             // lblFeb3
             // 
@@ -1483,6 +1554,7 @@
             this.lblFeb3.Size = new System.Drawing.Size(108, 18);
             this.lblFeb3.TabIndex = 39;
             this.lblFeb3.Text = "                         ";
+            this.lblFeb3.UseWaitCursor = true;
             // 
             // lblFeb2
             // 
@@ -1497,6 +1569,7 @@
             this.lblFeb2.Size = new System.Drawing.Size(108, 18);
             this.lblFeb2.TabIndex = 38;
             this.lblFeb2.Text = "                         ";
+            this.lblFeb2.UseWaitCursor = true;
             // 
             // lblFeb1
             // 
@@ -1511,6 +1584,7 @@
             this.lblFeb1.Size = new System.Drawing.Size(108, 18);
             this.lblFeb1.TabIndex = 37;
             this.lblFeb1.Text = "                         ";
+            this.lblFeb1.UseWaitCursor = true;
             // 
             // lblMar37
             // 
@@ -1525,6 +1599,7 @@
             this.lblMar37.Size = new System.Drawing.Size(108, 18);
             this.lblMar37.TabIndex = 110;
             this.lblMar37.Text = "                         ";
+            this.lblMar37.UseWaitCursor = true;
             // 
             // lblMar36
             // 
@@ -1539,6 +1614,7 @@
             this.lblMar36.Size = new System.Drawing.Size(108, 18);
             this.lblMar36.TabIndex = 109;
             this.lblMar36.Text = "                         ";
+            this.lblMar36.UseWaitCursor = true;
             // 
             // lblMar34
             // 
@@ -1553,6 +1629,7 @@
             this.lblMar34.Size = new System.Drawing.Size(108, 18);
             this.lblMar34.TabIndex = 108;
             this.lblMar34.Text = "                         ";
+            this.lblMar34.UseWaitCursor = true;
             // 
             // lblMar33
             // 
@@ -1567,6 +1644,7 @@
             this.lblMar33.Size = new System.Drawing.Size(108, 18);
             this.lblMar33.TabIndex = 107;
             this.lblMar33.Text = "                         ";
+            this.lblMar33.UseWaitCursor = true;
             // 
             // lblMar32
             // 
@@ -1581,6 +1659,7 @@
             this.lblMar32.Size = new System.Drawing.Size(108, 18);
             this.lblMar32.TabIndex = 106;
             this.lblMar32.Text = "                         ";
+            this.lblMar32.UseWaitCursor = true;
             // 
             // lblMar31
             // 
@@ -1595,6 +1674,7 @@
             this.lblMar31.Size = new System.Drawing.Size(108, 18);
             this.lblMar31.TabIndex = 105;
             this.lblMar31.Text = "                         ";
+            this.lblMar31.UseWaitCursor = true;
             // 
             // lblMar30
             // 
@@ -1609,6 +1689,7 @@
             this.lblMar30.Size = new System.Drawing.Size(108, 18);
             this.lblMar30.TabIndex = 104;
             this.lblMar30.Text = "                         ";
+            this.lblMar30.UseWaitCursor = true;
             // 
             // lblMar35
             // 
@@ -1623,6 +1704,7 @@
             this.lblMar35.Size = new System.Drawing.Size(108, 18);
             this.lblMar35.TabIndex = 103;
             this.lblMar35.Text = "                         ";
+            this.lblMar35.UseWaitCursor = true;
             // 
             // lblMar29
             // 
@@ -1637,6 +1719,7 @@
             this.lblMar29.Size = new System.Drawing.Size(108, 18);
             this.lblMar29.TabIndex = 102;
             this.lblMar29.Text = "                         ";
+            this.lblMar29.UseWaitCursor = true;
             // 
             // lblMar27
             // 
@@ -1651,6 +1734,7 @@
             this.lblMar27.Size = new System.Drawing.Size(108, 18);
             this.lblMar27.TabIndex = 101;
             this.lblMar27.Text = "                         ";
+            this.lblMar27.UseWaitCursor = true;
             // 
             // lblMar26
             // 
@@ -1665,6 +1749,7 @@
             this.lblMar26.Size = new System.Drawing.Size(108, 18);
             this.lblMar26.TabIndex = 100;
             this.lblMar26.Text = "                         ";
+            this.lblMar26.UseWaitCursor = true;
             // 
             // lblMar25
             // 
@@ -1679,6 +1764,7 @@
             this.lblMar25.Size = new System.Drawing.Size(108, 18);
             this.lblMar25.TabIndex = 99;
             this.lblMar25.Text = "                         ";
+            this.lblMar25.UseWaitCursor = true;
             // 
             // lblMar24
             // 
@@ -1693,6 +1779,7 @@
             this.lblMar24.Size = new System.Drawing.Size(108, 18);
             this.lblMar24.TabIndex = 98;
             this.lblMar24.Text = "                         ";
+            this.lblMar24.UseWaitCursor = true;
             // 
             // lblMar23
             // 
@@ -1707,6 +1794,7 @@
             this.lblMar23.Size = new System.Drawing.Size(108, 18);
             this.lblMar23.TabIndex = 97;
             this.lblMar23.Text = "                         ";
+            this.lblMar23.UseWaitCursor = true;
             // 
             // lblMar22
             // 
@@ -1721,6 +1809,7 @@
             this.lblMar22.Size = new System.Drawing.Size(108, 18);
             this.lblMar22.TabIndex = 96;
             this.lblMar22.Text = "                         ";
+            this.lblMar22.UseWaitCursor = true;
             // 
             // lblMar20
             // 
@@ -1735,6 +1824,7 @@
             this.lblMar20.Size = new System.Drawing.Size(108, 18);
             this.lblMar20.TabIndex = 95;
             this.lblMar20.Text = "                         ";
+            this.lblMar20.UseWaitCursor = true;
             // 
             // lblMar19
             // 
@@ -1749,6 +1839,7 @@
             this.lblMar19.Size = new System.Drawing.Size(108, 18);
             this.lblMar19.TabIndex = 94;
             this.lblMar19.Text = "                         ";
+            this.lblMar19.UseWaitCursor = true;
             // 
             // lblMar17
             // 
@@ -1763,6 +1854,7 @@
             this.lblMar17.Size = new System.Drawing.Size(108, 18);
             this.lblMar17.TabIndex = 93;
             this.lblMar17.Text = "                         ";
+            this.lblMar17.UseWaitCursor = true;
             // 
             // lblMar18
             // 
@@ -1777,6 +1869,7 @@
             this.lblMar18.Size = new System.Drawing.Size(108, 18);
             this.lblMar18.TabIndex = 92;
             this.lblMar18.Text = "                         ";
+            this.lblMar18.UseWaitCursor = true;
             // 
             // lblMar16
             // 
@@ -1791,6 +1884,7 @@
             this.lblMar16.Size = new System.Drawing.Size(108, 18);
             this.lblMar16.TabIndex = 91;
             this.lblMar16.Text = "                         ";
+            this.lblMar16.UseWaitCursor = true;
             // 
             // lblMar15
             // 
@@ -1805,6 +1899,7 @@
             this.lblMar15.Size = new System.Drawing.Size(108, 18);
             this.lblMar15.TabIndex = 90;
             this.lblMar15.Text = "                         ";
+            this.lblMar15.UseWaitCursor = true;
             // 
             // lblMar13
             // 
@@ -1819,6 +1914,7 @@
             this.lblMar13.Size = new System.Drawing.Size(108, 18);
             this.lblMar13.TabIndex = 89;
             this.lblMar13.Text = "                         ";
+            this.lblMar13.UseWaitCursor = true;
             // 
             // lblMar12
             // 
@@ -1833,6 +1929,7 @@
             this.lblMar12.Size = new System.Drawing.Size(108, 18);
             this.lblMar12.TabIndex = 88;
             this.lblMar12.Text = "                         ";
+            this.lblMar12.UseWaitCursor = true;
             // 
             // lblMar11
             // 
@@ -1847,6 +1944,7 @@
             this.lblMar11.Size = new System.Drawing.Size(108, 18);
             this.lblMar11.TabIndex = 87;
             this.lblMar11.Text = "                         ";
+            this.lblMar11.UseWaitCursor = true;
             // 
             // lblMar10
             // 
@@ -1861,6 +1959,7 @@
             this.lblMar10.Size = new System.Drawing.Size(108, 18);
             this.lblMar10.TabIndex = 86;
             this.lblMar10.Text = "                         ";
+            this.lblMar10.UseWaitCursor = true;
             // 
             // lblMar9
             // 
@@ -1875,6 +1974,7 @@
             this.lblMar9.Size = new System.Drawing.Size(108, 18);
             this.lblMar9.TabIndex = 85;
             this.lblMar9.Text = "                         ";
+            this.lblMar9.UseWaitCursor = true;
             // 
             // lblMar8
             // 
@@ -1889,6 +1989,7 @@
             this.lblMar8.Size = new System.Drawing.Size(108, 18);
             this.lblMar8.TabIndex = 84;
             this.lblMar8.Text = "                         ";
+            this.lblMar8.UseWaitCursor = true;
             // 
             // lblMar28
             // 
@@ -1903,6 +2004,7 @@
             this.lblMar28.Size = new System.Drawing.Size(108, 18);
             this.lblMar28.TabIndex = 83;
             this.lblMar28.Text = "                         ";
+            this.lblMar28.UseWaitCursor = true;
             // 
             // lblMar21
             // 
@@ -1917,6 +2019,7 @@
             this.lblMar21.Size = new System.Drawing.Size(108, 18);
             this.lblMar21.TabIndex = 82;
             this.lblMar21.Text = "                         ";
+            this.lblMar21.UseWaitCursor = true;
             // 
             // lblMar14
             // 
@@ -1931,6 +2034,7 @@
             this.lblMar14.Size = new System.Drawing.Size(108, 18);
             this.lblMar14.TabIndex = 81;
             this.lblMar14.Text = "                         ";
+            this.lblMar14.UseWaitCursor = true;
             // 
             // lblMar7
             // 
@@ -1945,6 +2049,7 @@
             this.lblMar7.Size = new System.Drawing.Size(108, 18);
             this.lblMar7.TabIndex = 80;
             this.lblMar7.Text = "                         ";
+            this.lblMar7.UseWaitCursor = true;
             // 
             // lblMar6
             // 
@@ -1959,6 +2064,7 @@
             this.lblMar6.Size = new System.Drawing.Size(108, 18);
             this.lblMar6.TabIndex = 79;
             this.lblMar6.Text = "                         ";
+            this.lblMar6.UseWaitCursor = true;
             // 
             // lblMar5
             // 
@@ -1973,6 +2079,7 @@
             this.lblMar5.Size = new System.Drawing.Size(108, 18);
             this.lblMar5.TabIndex = 78;
             this.lblMar5.Text = "                         ";
+            this.lblMar5.UseWaitCursor = true;
             // 
             // lblMar4
             // 
@@ -1987,6 +2094,7 @@
             this.lblMar4.Size = new System.Drawing.Size(108, 18);
             this.lblMar4.TabIndex = 77;
             this.lblMar4.Text = "                         ";
+            this.lblMar4.UseWaitCursor = true;
             // 
             // lblMar3
             // 
@@ -2001,6 +2109,7 @@
             this.lblMar3.Size = new System.Drawing.Size(108, 18);
             this.lblMar3.TabIndex = 76;
             this.lblMar3.Text = "                         ";
+            this.lblMar3.UseWaitCursor = true;
             // 
             // lblMar2
             // 
@@ -2015,6 +2124,7 @@
             this.lblMar2.Size = new System.Drawing.Size(108, 18);
             this.lblMar2.TabIndex = 75;
             this.lblMar2.Text = "                         ";
+            this.lblMar2.UseWaitCursor = true;
             // 
             // lblMar1
             // 
@@ -2029,6 +2139,7 @@
             this.lblMar1.Size = new System.Drawing.Size(108, 18);
             this.lblMar1.TabIndex = 74;
             this.lblMar1.Text = "                         ";
+            this.lblMar1.UseWaitCursor = true;
             // 
             // lblApr37
             // 
@@ -2043,6 +2154,7 @@
             this.lblApr37.Size = new System.Drawing.Size(100, 18);
             this.lblApr37.TabIndex = 147;
             this.lblApr37.Text = "                       ";
+            this.lblApr37.UseWaitCursor = true;
             // 
             // lblApr36
             // 
@@ -2057,6 +2169,7 @@
             this.lblApr36.Size = new System.Drawing.Size(100, 18);
             this.lblApr36.TabIndex = 146;
             this.lblApr36.Text = "                       ";
+            this.lblApr36.UseWaitCursor = true;
             // 
             // lblApr34
             // 
@@ -2071,6 +2184,7 @@
             this.lblApr34.Size = new System.Drawing.Size(100, 18);
             this.lblApr34.TabIndex = 145;
             this.lblApr34.Text = "                       ";
+            this.lblApr34.UseWaitCursor = true;
             // 
             // lblApr33
             // 
@@ -2085,6 +2199,7 @@
             this.lblApr33.Size = new System.Drawing.Size(100, 18);
             this.lblApr33.TabIndex = 144;
             this.lblApr33.Text = "                       ";
+            this.lblApr33.UseWaitCursor = true;
             // 
             // lblApr32
             // 
@@ -2099,6 +2214,7 @@
             this.lblApr32.Size = new System.Drawing.Size(100, 18);
             this.lblApr32.TabIndex = 143;
             this.lblApr32.Text = "                       ";
+            this.lblApr32.UseWaitCursor = true;
             // 
             // lblApr31
             // 
@@ -2113,6 +2229,7 @@
             this.lblApr31.Size = new System.Drawing.Size(100, 18);
             this.lblApr31.TabIndex = 142;
             this.lblApr31.Text = "                       ";
+            this.lblApr31.UseWaitCursor = true;
             // 
             // lblApr30
             // 
@@ -2127,6 +2244,7 @@
             this.lblApr30.Size = new System.Drawing.Size(100, 18);
             this.lblApr30.TabIndex = 141;
             this.lblApr30.Text = "                       ";
+            this.lblApr30.UseWaitCursor = true;
             // 
             // lblApr35
             // 
@@ -2141,6 +2259,7 @@
             this.lblApr35.Size = new System.Drawing.Size(100, 18);
             this.lblApr35.TabIndex = 140;
             this.lblApr35.Text = "                       ";
+            this.lblApr35.UseWaitCursor = true;
             // 
             // lblApr29
             // 
@@ -2155,6 +2274,7 @@
             this.lblApr29.Size = new System.Drawing.Size(100, 18);
             this.lblApr29.TabIndex = 139;
             this.lblApr29.Text = "                       ";
+            this.lblApr29.UseWaitCursor = true;
             // 
             // lblApr27
             // 
@@ -2169,6 +2289,7 @@
             this.lblApr27.Size = new System.Drawing.Size(100, 18);
             this.lblApr27.TabIndex = 138;
             this.lblApr27.Text = "                       ";
+            this.lblApr27.UseWaitCursor = true;
             // 
             // lblApr26
             // 
@@ -2183,6 +2304,7 @@
             this.lblApr26.Size = new System.Drawing.Size(100, 18);
             this.lblApr26.TabIndex = 137;
             this.lblApr26.Text = "                       ";
+            this.lblApr26.UseWaitCursor = true;
             // 
             // lblApr25
             // 
@@ -2197,6 +2319,7 @@
             this.lblApr25.Size = new System.Drawing.Size(100, 18);
             this.lblApr25.TabIndex = 136;
             this.lblApr25.Text = "                       ";
+            this.lblApr25.UseWaitCursor = true;
             // 
             // lblApr24
             // 
@@ -2211,6 +2334,7 @@
             this.lblApr24.Size = new System.Drawing.Size(100, 18);
             this.lblApr24.TabIndex = 135;
             this.lblApr24.Text = "                       ";
+            this.lblApr24.UseWaitCursor = true;
             // 
             // lblApr23
             // 
@@ -2225,6 +2349,7 @@
             this.lblApr23.Size = new System.Drawing.Size(100, 18);
             this.lblApr23.TabIndex = 134;
             this.lblApr23.Text = "                       ";
+            this.lblApr23.UseWaitCursor = true;
             // 
             // lblApr22
             // 
@@ -2239,6 +2364,7 @@
             this.lblApr22.Size = new System.Drawing.Size(100, 18);
             this.lblApr22.TabIndex = 133;
             this.lblApr22.Text = "                       ";
+            this.lblApr22.UseWaitCursor = true;
             // 
             // lblApr20
             // 
@@ -2253,6 +2379,7 @@
             this.lblApr20.Size = new System.Drawing.Size(100, 18);
             this.lblApr20.TabIndex = 132;
             this.lblApr20.Text = "                       ";
+            this.lblApr20.UseWaitCursor = true;
             // 
             // lblApr19
             // 
@@ -2267,6 +2394,7 @@
             this.lblApr19.Size = new System.Drawing.Size(100, 18);
             this.lblApr19.TabIndex = 131;
             this.lblApr19.Text = "                       ";
+            this.lblApr19.UseWaitCursor = true;
             // 
             // lblApr17
             // 
@@ -2281,6 +2409,7 @@
             this.lblApr17.Size = new System.Drawing.Size(100, 18);
             this.lblApr17.TabIndex = 130;
             this.lblApr17.Text = "                       ";
+            this.lblApr17.UseWaitCursor = true;
             // 
             // lblApr18
             // 
@@ -2295,6 +2424,7 @@
             this.lblApr18.Size = new System.Drawing.Size(100, 18);
             this.lblApr18.TabIndex = 129;
             this.lblApr18.Text = "                       ";
+            this.lblApr18.UseWaitCursor = true;
             // 
             // lblApr16
             // 
@@ -2309,6 +2439,7 @@
             this.lblApr16.Size = new System.Drawing.Size(100, 18);
             this.lblApr16.TabIndex = 128;
             this.lblApr16.Text = "                       ";
+            this.lblApr16.UseWaitCursor = true;
             // 
             // lblApr15
             // 
@@ -2323,6 +2454,7 @@
             this.lblApr15.Size = new System.Drawing.Size(100, 18);
             this.lblApr15.TabIndex = 127;
             this.lblApr15.Text = "                       ";
+            this.lblApr15.UseWaitCursor = true;
             // 
             // lblApr13
             // 
@@ -2337,6 +2469,7 @@
             this.lblApr13.Size = new System.Drawing.Size(100, 18);
             this.lblApr13.TabIndex = 126;
             this.lblApr13.Text = "                       ";
+            this.lblApr13.UseWaitCursor = true;
             // 
             // lblApr12
             // 
@@ -2351,6 +2484,7 @@
             this.lblApr12.Size = new System.Drawing.Size(100, 18);
             this.lblApr12.TabIndex = 125;
             this.lblApr12.Text = "                       ";
+            this.lblApr12.UseWaitCursor = true;
             // 
             // lblApr11
             // 
@@ -2365,6 +2499,7 @@
             this.lblApr11.Size = new System.Drawing.Size(100, 18);
             this.lblApr11.TabIndex = 124;
             this.lblApr11.Text = "                       ";
+            this.lblApr11.UseWaitCursor = true;
             // 
             // lblApr10
             // 
@@ -2379,6 +2514,7 @@
             this.lblApr10.Size = new System.Drawing.Size(100, 18);
             this.lblApr10.TabIndex = 123;
             this.lblApr10.Text = "                       ";
+            this.lblApr10.UseWaitCursor = true;
             // 
             // lblApr9
             // 
@@ -2393,6 +2529,7 @@
             this.lblApr9.Size = new System.Drawing.Size(100, 18);
             this.lblApr9.TabIndex = 122;
             this.lblApr9.Text = "                       ";
+            this.lblApr9.UseWaitCursor = true;
             // 
             // lblApr8
             // 
@@ -2407,6 +2544,7 @@
             this.lblApr8.Size = new System.Drawing.Size(100, 18);
             this.lblApr8.TabIndex = 121;
             this.lblApr8.Text = "                       ";
+            this.lblApr8.UseWaitCursor = true;
             // 
             // lblApr28
             // 
@@ -2421,6 +2559,7 @@
             this.lblApr28.Size = new System.Drawing.Size(100, 18);
             this.lblApr28.TabIndex = 120;
             this.lblApr28.Text = "                       ";
+            this.lblApr28.UseWaitCursor = true;
             // 
             // lblApr21
             // 
@@ -2435,6 +2574,7 @@
             this.lblApr21.Size = new System.Drawing.Size(100, 18);
             this.lblApr21.TabIndex = 119;
             this.lblApr21.Text = "                       ";
+            this.lblApr21.UseWaitCursor = true;
             // 
             // lblApr14
             // 
@@ -2449,6 +2589,7 @@
             this.lblApr14.Size = new System.Drawing.Size(100, 18);
             this.lblApr14.TabIndex = 118;
             this.lblApr14.Text = "                       ";
+            this.lblApr14.UseWaitCursor = true;
             // 
             // lblApr7
             // 
@@ -2463,6 +2604,7 @@
             this.lblApr7.Size = new System.Drawing.Size(100, 18);
             this.lblApr7.TabIndex = 117;
             this.lblApr7.Text = "                       ";
+            this.lblApr7.UseWaitCursor = true;
             // 
             // lblApr6
             // 
@@ -2477,6 +2619,7 @@
             this.lblApr6.Size = new System.Drawing.Size(100, 18);
             this.lblApr6.TabIndex = 116;
             this.lblApr6.Text = "                       ";
+            this.lblApr6.UseWaitCursor = true;
             // 
             // lblApr5
             // 
@@ -2491,6 +2634,7 @@
             this.lblApr5.Size = new System.Drawing.Size(100, 18);
             this.lblApr5.TabIndex = 115;
             this.lblApr5.Text = "                       ";
+            this.lblApr5.UseWaitCursor = true;
             // 
             // lblApr4
             // 
@@ -2505,6 +2649,7 @@
             this.lblApr4.Size = new System.Drawing.Size(100, 18);
             this.lblApr4.TabIndex = 114;
             this.lblApr4.Text = "                       ";
+            this.lblApr4.UseWaitCursor = true;
             // 
             // lblApr3
             // 
@@ -2519,6 +2664,7 @@
             this.lblApr3.Size = new System.Drawing.Size(100, 18);
             this.lblApr3.TabIndex = 113;
             this.lblApr3.Text = "                       ";
+            this.lblApr3.UseWaitCursor = true;
             // 
             // lblApr2
             // 
@@ -2533,6 +2679,7 @@
             this.lblApr2.Size = new System.Drawing.Size(100, 18);
             this.lblApr2.TabIndex = 112;
             this.lblApr2.Text = "                       ";
+            this.lblApr2.UseWaitCursor = true;
             // 
             // lblApr1
             // 
@@ -2547,6 +2694,7 @@
             this.lblApr1.Size = new System.Drawing.Size(100, 18);
             this.lblApr1.TabIndex = 111;
             this.lblApr1.Text = "                       ";
+            this.lblApr1.UseWaitCursor = true;
             // 
             // lblMay37
             // 
@@ -2561,6 +2709,7 @@
             this.lblMay37.Size = new System.Drawing.Size(100, 18);
             this.lblMay37.TabIndex = 184;
             this.lblMay37.Text = "                       ";
+            this.lblMay37.UseWaitCursor = true;
             // 
             // lblMay36
             // 
@@ -2575,6 +2724,7 @@
             this.lblMay36.Size = new System.Drawing.Size(100, 18);
             this.lblMay36.TabIndex = 183;
             this.lblMay36.Text = "                       ";
+            this.lblMay36.UseWaitCursor = true;
             // 
             // lblMay34
             // 
@@ -2589,6 +2739,7 @@
             this.lblMay34.Size = new System.Drawing.Size(100, 18);
             this.lblMay34.TabIndex = 182;
             this.lblMay34.Text = "                       ";
+            this.lblMay34.UseWaitCursor = true;
             // 
             // lblMay33
             // 
@@ -2603,6 +2754,7 @@
             this.lblMay33.Size = new System.Drawing.Size(100, 18);
             this.lblMay33.TabIndex = 181;
             this.lblMay33.Text = "                       ";
+            this.lblMay33.UseWaitCursor = true;
             // 
             // lblMay32
             // 
@@ -2617,6 +2769,7 @@
             this.lblMay32.Size = new System.Drawing.Size(100, 18);
             this.lblMay32.TabIndex = 180;
             this.lblMay32.Text = "                       ";
+            this.lblMay32.UseWaitCursor = true;
             // 
             // lblMay31
             // 
@@ -2631,6 +2784,7 @@
             this.lblMay31.Size = new System.Drawing.Size(100, 18);
             this.lblMay31.TabIndex = 179;
             this.lblMay31.Text = "                       ";
+            this.lblMay31.UseWaitCursor = true;
             // 
             // lblMay30
             // 
@@ -2645,6 +2799,7 @@
             this.lblMay30.Size = new System.Drawing.Size(100, 18);
             this.lblMay30.TabIndex = 178;
             this.lblMay30.Text = "                       ";
+            this.lblMay30.UseWaitCursor = true;
             // 
             // lblMay35
             // 
@@ -2659,6 +2814,7 @@
             this.lblMay35.Size = new System.Drawing.Size(100, 18);
             this.lblMay35.TabIndex = 177;
             this.lblMay35.Text = "                       ";
+            this.lblMay35.UseWaitCursor = true;
             // 
             // lblMay29
             // 
@@ -2673,6 +2829,7 @@
             this.lblMay29.Size = new System.Drawing.Size(100, 18);
             this.lblMay29.TabIndex = 176;
             this.lblMay29.Text = "                       ";
+            this.lblMay29.UseWaitCursor = true;
             // 
             // lblMay27
             // 
@@ -2687,6 +2844,7 @@
             this.lblMay27.Size = new System.Drawing.Size(100, 18);
             this.lblMay27.TabIndex = 175;
             this.lblMay27.Text = "                       ";
+            this.lblMay27.UseWaitCursor = true;
             // 
             // lblMay26
             // 
@@ -2701,6 +2859,7 @@
             this.lblMay26.Size = new System.Drawing.Size(100, 18);
             this.lblMay26.TabIndex = 174;
             this.lblMay26.Text = "                       ";
+            this.lblMay26.UseWaitCursor = true;
             // 
             // lblMay25
             // 
@@ -2715,6 +2874,7 @@
             this.lblMay25.Size = new System.Drawing.Size(100, 18);
             this.lblMay25.TabIndex = 173;
             this.lblMay25.Text = "                       ";
+            this.lblMay25.UseWaitCursor = true;
             // 
             // lblMay24
             // 
@@ -2729,6 +2889,7 @@
             this.lblMay24.Size = new System.Drawing.Size(100, 18);
             this.lblMay24.TabIndex = 172;
             this.lblMay24.Text = "                       ";
+            this.lblMay24.UseWaitCursor = true;
             // 
             // lblMay23
             // 
@@ -2743,6 +2904,7 @@
             this.lblMay23.Size = new System.Drawing.Size(100, 18);
             this.lblMay23.TabIndex = 171;
             this.lblMay23.Text = "                       ";
+            this.lblMay23.UseWaitCursor = true;
             // 
             // lblMay22
             // 
@@ -2757,6 +2919,7 @@
             this.lblMay22.Size = new System.Drawing.Size(100, 18);
             this.lblMay22.TabIndex = 170;
             this.lblMay22.Text = "                       ";
+            this.lblMay22.UseWaitCursor = true;
             // 
             // lblMay20
             // 
@@ -2771,6 +2934,7 @@
             this.lblMay20.Size = new System.Drawing.Size(100, 18);
             this.lblMay20.TabIndex = 169;
             this.lblMay20.Text = "                       ";
+            this.lblMay20.UseWaitCursor = true;
             // 
             // lblMay19
             // 
@@ -2785,6 +2949,7 @@
             this.lblMay19.Size = new System.Drawing.Size(100, 18);
             this.lblMay19.TabIndex = 168;
             this.lblMay19.Text = "                       ";
+            this.lblMay19.UseWaitCursor = true;
             // 
             // lblMay17
             // 
@@ -2799,6 +2964,7 @@
             this.lblMay17.Size = new System.Drawing.Size(100, 18);
             this.lblMay17.TabIndex = 167;
             this.lblMay17.Text = "                       ";
+            this.lblMay17.UseWaitCursor = true;
             // 
             // lblMay18
             // 
@@ -2813,6 +2979,7 @@
             this.lblMay18.Size = new System.Drawing.Size(100, 18);
             this.lblMay18.TabIndex = 166;
             this.lblMay18.Text = "                       ";
+            this.lblMay18.UseWaitCursor = true;
             // 
             // lblMay16
             // 
@@ -2827,6 +2994,7 @@
             this.lblMay16.Size = new System.Drawing.Size(100, 18);
             this.lblMay16.TabIndex = 165;
             this.lblMay16.Text = "                       ";
+            this.lblMay16.UseWaitCursor = true;
             // 
             // lblMay15
             // 
@@ -2841,6 +3009,7 @@
             this.lblMay15.Size = new System.Drawing.Size(100, 18);
             this.lblMay15.TabIndex = 164;
             this.lblMay15.Text = "                       ";
+            this.lblMay15.UseWaitCursor = true;
             // 
             // lblMay13
             // 
@@ -2855,6 +3024,7 @@
             this.lblMay13.Size = new System.Drawing.Size(100, 18);
             this.lblMay13.TabIndex = 163;
             this.lblMay13.Text = "                       ";
+            this.lblMay13.UseWaitCursor = true;
             // 
             // lblMay12
             // 
@@ -2869,6 +3039,7 @@
             this.lblMay12.Size = new System.Drawing.Size(100, 18);
             this.lblMay12.TabIndex = 162;
             this.lblMay12.Text = "                       ";
+            this.lblMay12.UseWaitCursor = true;
             // 
             // lblMay11
             // 
@@ -2883,6 +3054,7 @@
             this.lblMay11.Size = new System.Drawing.Size(100, 18);
             this.lblMay11.TabIndex = 161;
             this.lblMay11.Text = "                       ";
+            this.lblMay11.UseWaitCursor = true;
             // 
             // lblMay10
             // 
@@ -2897,6 +3069,7 @@
             this.lblMay10.Size = new System.Drawing.Size(100, 18);
             this.lblMay10.TabIndex = 160;
             this.lblMay10.Text = "                       ";
+            this.lblMay10.UseWaitCursor = true;
             // 
             // lblMay9
             // 
@@ -2911,6 +3084,7 @@
             this.lblMay9.Size = new System.Drawing.Size(100, 18);
             this.lblMay9.TabIndex = 159;
             this.lblMay9.Text = "                       ";
+            this.lblMay9.UseWaitCursor = true;
             // 
             // lblMay8
             // 
@@ -2925,6 +3099,7 @@
             this.lblMay8.Size = new System.Drawing.Size(100, 18);
             this.lblMay8.TabIndex = 158;
             this.lblMay8.Text = "                       ";
+            this.lblMay8.UseWaitCursor = true;
             // 
             // lblMay28
             // 
@@ -2939,6 +3114,7 @@
             this.lblMay28.Size = new System.Drawing.Size(100, 18);
             this.lblMay28.TabIndex = 157;
             this.lblMay28.Text = "                       ";
+            this.lblMay28.UseWaitCursor = true;
             // 
             // lblMay21
             // 
@@ -2953,6 +3129,7 @@
             this.lblMay21.Size = new System.Drawing.Size(100, 18);
             this.lblMay21.TabIndex = 156;
             this.lblMay21.Text = "                       ";
+            this.lblMay21.UseWaitCursor = true;
             // 
             // lblMay14
             // 
@@ -2967,6 +3144,7 @@
             this.lblMay14.Size = new System.Drawing.Size(100, 18);
             this.lblMay14.TabIndex = 155;
             this.lblMay14.Text = "                       ";
+            this.lblMay14.UseWaitCursor = true;
             // 
             // lblMay7
             // 
@@ -2981,6 +3159,7 @@
             this.lblMay7.Size = new System.Drawing.Size(100, 18);
             this.lblMay7.TabIndex = 154;
             this.lblMay7.Text = "                       ";
+            this.lblMay7.UseWaitCursor = true;
             // 
             // lblMay6
             // 
@@ -2995,6 +3174,7 @@
             this.lblMay6.Size = new System.Drawing.Size(100, 18);
             this.lblMay6.TabIndex = 153;
             this.lblMay6.Text = "                       ";
+            this.lblMay6.UseWaitCursor = true;
             // 
             // lblMay5
             // 
@@ -3009,6 +3189,7 @@
             this.lblMay5.Size = new System.Drawing.Size(100, 18);
             this.lblMay5.TabIndex = 152;
             this.lblMay5.Text = "                       ";
+            this.lblMay5.UseWaitCursor = true;
             // 
             // lblMay4
             // 
@@ -3023,6 +3204,7 @@
             this.lblMay4.Size = new System.Drawing.Size(100, 18);
             this.lblMay4.TabIndex = 151;
             this.lblMay4.Text = "                       ";
+            this.lblMay4.UseWaitCursor = true;
             // 
             // lblMay3
             // 
@@ -3037,6 +3219,7 @@
             this.lblMay3.Size = new System.Drawing.Size(100, 18);
             this.lblMay3.TabIndex = 150;
             this.lblMay3.Text = "                       ";
+            this.lblMay3.UseWaitCursor = true;
             // 
             // lblMay2
             // 
@@ -3051,6 +3234,7 @@
             this.lblMay2.Size = new System.Drawing.Size(100, 18);
             this.lblMay2.TabIndex = 149;
             this.lblMay2.Text = "                       ";
+            this.lblMay2.UseWaitCursor = true;
             // 
             // lblMay1
             // 
@@ -3065,6 +3249,7 @@
             this.lblMay1.Size = new System.Drawing.Size(100, 18);
             this.lblMay1.TabIndex = 148;
             this.lblMay1.Text = "                       ";
+            this.lblMay1.UseWaitCursor = true;
             // 
             // lblJun37
             // 
@@ -3079,6 +3264,7 @@
             this.lblJun37.Size = new System.Drawing.Size(100, 18);
             this.lblJun37.TabIndex = 221;
             this.lblJun37.Text = "                       ";
+            this.lblJun37.UseWaitCursor = true;
             // 
             // lblJun36
             // 
@@ -3093,6 +3279,7 @@
             this.lblJun36.Size = new System.Drawing.Size(100, 18);
             this.lblJun36.TabIndex = 220;
             this.lblJun36.Text = "                       ";
+            this.lblJun36.UseWaitCursor = true;
             // 
             // lblJun34
             // 
@@ -3107,6 +3294,7 @@
             this.lblJun34.Size = new System.Drawing.Size(100, 18);
             this.lblJun34.TabIndex = 219;
             this.lblJun34.Text = "                       ";
+            this.lblJun34.UseWaitCursor = true;
             // 
             // lblJun33
             // 
@@ -3121,6 +3309,7 @@
             this.lblJun33.Size = new System.Drawing.Size(100, 18);
             this.lblJun33.TabIndex = 218;
             this.lblJun33.Text = "                       ";
+            this.lblJun33.UseWaitCursor = true;
             // 
             // lblJun32
             // 
@@ -3135,6 +3324,7 @@
             this.lblJun32.Size = new System.Drawing.Size(100, 18);
             this.lblJun32.TabIndex = 217;
             this.lblJun32.Text = "                       ";
+            this.lblJun32.UseWaitCursor = true;
             // 
             // lblJun31
             // 
@@ -3149,6 +3339,7 @@
             this.lblJun31.Size = new System.Drawing.Size(100, 18);
             this.lblJun31.TabIndex = 216;
             this.lblJun31.Text = "                       ";
+            this.lblJun31.UseWaitCursor = true;
             // 
             // lblJun30
             // 
@@ -3163,6 +3354,7 @@
             this.lblJun30.Size = new System.Drawing.Size(100, 18);
             this.lblJun30.TabIndex = 215;
             this.lblJun30.Text = "                       ";
+            this.lblJun30.UseWaitCursor = true;
             // 
             // lblJun35
             // 
@@ -3177,6 +3369,7 @@
             this.lblJun35.Size = new System.Drawing.Size(100, 18);
             this.lblJun35.TabIndex = 214;
             this.lblJun35.Text = "                       ";
+            this.lblJun35.UseWaitCursor = true;
             // 
             // lblJun29
             // 
@@ -3191,6 +3384,7 @@
             this.lblJun29.Size = new System.Drawing.Size(100, 18);
             this.lblJun29.TabIndex = 213;
             this.lblJun29.Text = "                       ";
+            this.lblJun29.UseWaitCursor = true;
             // 
             // lblJun27
             // 
@@ -3205,6 +3399,7 @@
             this.lblJun27.Size = new System.Drawing.Size(100, 18);
             this.lblJun27.TabIndex = 212;
             this.lblJun27.Text = "                       ";
+            this.lblJun27.UseWaitCursor = true;
             // 
             // lblJun26
             // 
@@ -3219,6 +3414,7 @@
             this.lblJun26.Size = new System.Drawing.Size(100, 18);
             this.lblJun26.TabIndex = 211;
             this.lblJun26.Text = "                       ";
+            this.lblJun26.UseWaitCursor = true;
             // 
             // lblJun25
             // 
@@ -3233,6 +3429,7 @@
             this.lblJun25.Size = new System.Drawing.Size(100, 18);
             this.lblJun25.TabIndex = 210;
             this.lblJun25.Text = "                       ";
+            this.lblJun25.UseWaitCursor = true;
             // 
             // lblJun24
             // 
@@ -3247,6 +3444,7 @@
             this.lblJun24.Size = new System.Drawing.Size(100, 18);
             this.lblJun24.TabIndex = 209;
             this.lblJun24.Text = "                       ";
+            this.lblJun24.UseWaitCursor = true;
             // 
             // lblJun23
             // 
@@ -3261,6 +3459,7 @@
             this.lblJun23.Size = new System.Drawing.Size(100, 18);
             this.lblJun23.TabIndex = 208;
             this.lblJun23.Text = "                       ";
+            this.lblJun23.UseWaitCursor = true;
             // 
             // lblJun22
             // 
@@ -3275,6 +3474,7 @@
             this.lblJun22.Size = new System.Drawing.Size(100, 18);
             this.lblJun22.TabIndex = 207;
             this.lblJun22.Text = "                       ";
+            this.lblJun22.UseWaitCursor = true;
             // 
             // lblJun20
             // 
@@ -3289,6 +3489,7 @@
             this.lblJun20.Size = new System.Drawing.Size(100, 18);
             this.lblJun20.TabIndex = 206;
             this.lblJun20.Text = "                       ";
+            this.lblJun20.UseWaitCursor = true;
             // 
             // lblJun19
             // 
@@ -3303,6 +3504,7 @@
             this.lblJun19.Size = new System.Drawing.Size(100, 18);
             this.lblJun19.TabIndex = 205;
             this.lblJun19.Text = "                       ";
+            this.lblJun19.UseWaitCursor = true;
             // 
             // lblJun17
             // 
@@ -3317,6 +3519,7 @@
             this.lblJun17.Size = new System.Drawing.Size(100, 18);
             this.lblJun17.TabIndex = 204;
             this.lblJun17.Text = "                       ";
+            this.lblJun17.UseWaitCursor = true;
             // 
             // lblJun18
             // 
@@ -3331,6 +3534,7 @@
             this.lblJun18.Size = new System.Drawing.Size(100, 18);
             this.lblJun18.TabIndex = 203;
             this.lblJun18.Text = "                       ";
+            this.lblJun18.UseWaitCursor = true;
             // 
             // lblJun16
             // 
@@ -3345,6 +3549,7 @@
             this.lblJun16.Size = new System.Drawing.Size(100, 18);
             this.lblJun16.TabIndex = 202;
             this.lblJun16.Text = "                       ";
+            this.lblJun16.UseWaitCursor = true;
             // 
             // lblJun15
             // 
@@ -3359,6 +3564,7 @@
             this.lblJun15.Size = new System.Drawing.Size(100, 18);
             this.lblJun15.TabIndex = 201;
             this.lblJun15.Text = "                       ";
+            this.lblJun15.UseWaitCursor = true;
             // 
             // lblJun13
             // 
@@ -3373,6 +3579,7 @@
             this.lblJun13.Size = new System.Drawing.Size(100, 18);
             this.lblJun13.TabIndex = 200;
             this.lblJun13.Text = "                       ";
+            this.lblJun13.UseWaitCursor = true;
             // 
             // lblJun12
             // 
@@ -3387,6 +3594,7 @@
             this.lblJun12.Size = new System.Drawing.Size(100, 18);
             this.lblJun12.TabIndex = 199;
             this.lblJun12.Text = "                       ";
+            this.lblJun12.UseWaitCursor = true;
             // 
             // lblJun11
             // 
@@ -3401,6 +3609,7 @@
             this.lblJun11.Size = new System.Drawing.Size(100, 18);
             this.lblJun11.TabIndex = 198;
             this.lblJun11.Text = "                       ";
+            this.lblJun11.UseWaitCursor = true;
             // 
             // lblJun10
             // 
@@ -3415,6 +3624,7 @@
             this.lblJun10.Size = new System.Drawing.Size(100, 18);
             this.lblJun10.TabIndex = 197;
             this.lblJun10.Text = "                       ";
+            this.lblJun10.UseWaitCursor = true;
             // 
             // lblJun9
             // 
@@ -3429,6 +3639,7 @@
             this.lblJun9.Size = new System.Drawing.Size(100, 18);
             this.lblJun9.TabIndex = 196;
             this.lblJun9.Text = "                       ";
+            this.lblJun9.UseWaitCursor = true;
             // 
             // lblJun8
             // 
@@ -3443,6 +3654,7 @@
             this.lblJun8.Size = new System.Drawing.Size(100, 18);
             this.lblJun8.TabIndex = 195;
             this.lblJun8.Text = "                       ";
+            this.lblJun8.UseWaitCursor = true;
             // 
             // lblJun28
             // 
@@ -3457,6 +3669,7 @@
             this.lblJun28.Size = new System.Drawing.Size(100, 18);
             this.lblJun28.TabIndex = 194;
             this.lblJun28.Text = "                       ";
+            this.lblJun28.UseWaitCursor = true;
             // 
             // lblJun21
             // 
@@ -3471,6 +3684,7 @@
             this.lblJun21.Size = new System.Drawing.Size(100, 18);
             this.lblJun21.TabIndex = 193;
             this.lblJun21.Text = "                       ";
+            this.lblJun21.UseWaitCursor = true;
             // 
             // lblJun14
             // 
@@ -3485,6 +3699,7 @@
             this.lblJun14.Size = new System.Drawing.Size(100, 18);
             this.lblJun14.TabIndex = 192;
             this.lblJun14.Text = "                       ";
+            this.lblJun14.UseWaitCursor = true;
             // 
             // lblJun7
             // 
@@ -3499,6 +3714,7 @@
             this.lblJun7.Size = new System.Drawing.Size(100, 18);
             this.lblJun7.TabIndex = 191;
             this.lblJun7.Text = "                       ";
+            this.lblJun7.UseWaitCursor = true;
             // 
             // lblJun6
             // 
@@ -3513,6 +3729,7 @@
             this.lblJun6.Size = new System.Drawing.Size(100, 18);
             this.lblJun6.TabIndex = 190;
             this.lblJun6.Text = "                       ";
+            this.lblJun6.UseWaitCursor = true;
             // 
             // lblJun5
             // 
@@ -3527,6 +3744,7 @@
             this.lblJun5.Size = new System.Drawing.Size(100, 18);
             this.lblJun5.TabIndex = 189;
             this.lblJun5.Text = "                       ";
+            this.lblJun5.UseWaitCursor = true;
             // 
             // lblJun4
             // 
@@ -3541,6 +3759,7 @@
             this.lblJun4.Size = new System.Drawing.Size(100, 18);
             this.lblJun4.TabIndex = 188;
             this.lblJun4.Text = "                       ";
+            this.lblJun4.UseWaitCursor = true;
             // 
             // lblJun3
             // 
@@ -3555,6 +3774,7 @@
             this.lblJun3.Size = new System.Drawing.Size(100, 18);
             this.lblJun3.TabIndex = 187;
             this.lblJun3.Text = "                       ";
+            this.lblJun3.UseWaitCursor = true;
             // 
             // lblJun2
             // 
@@ -3569,6 +3789,7 @@
             this.lblJun2.Size = new System.Drawing.Size(100, 18);
             this.lblJun2.TabIndex = 186;
             this.lblJun2.Text = "                       ";
+            this.lblJun2.UseWaitCursor = true;
             // 
             // lblJun1
             // 
@@ -3583,6 +3804,7 @@
             this.lblJun1.Size = new System.Drawing.Size(100, 18);
             this.lblJun1.TabIndex = 185;
             this.lblJun1.Text = "                       ";
+            this.lblJun1.UseWaitCursor = true;
             // 
             // lblJul37
             // 
@@ -3597,6 +3819,7 @@
             this.lblJul37.Size = new System.Drawing.Size(100, 18);
             this.lblJul37.TabIndex = 258;
             this.lblJul37.Text = "                       ";
+            this.lblJul37.UseWaitCursor = true;
             // 
             // lblJul36
             // 
@@ -3611,6 +3834,7 @@
             this.lblJul36.Size = new System.Drawing.Size(100, 18);
             this.lblJul36.TabIndex = 257;
             this.lblJul36.Text = "                       ";
+            this.lblJul36.UseWaitCursor = true;
             // 
             // lblJul34
             // 
@@ -3625,6 +3849,7 @@
             this.lblJul34.Size = new System.Drawing.Size(100, 18);
             this.lblJul34.TabIndex = 256;
             this.lblJul34.Text = "                       ";
+            this.lblJul34.UseWaitCursor = true;
             // 
             // lblJul33
             // 
@@ -3639,6 +3864,7 @@
             this.lblJul33.Size = new System.Drawing.Size(100, 18);
             this.lblJul33.TabIndex = 255;
             this.lblJul33.Text = "                       ";
+            this.lblJul33.UseWaitCursor = true;
             // 
             // lblJul32
             // 
@@ -3653,6 +3879,7 @@
             this.lblJul32.Size = new System.Drawing.Size(100, 18);
             this.lblJul32.TabIndex = 254;
             this.lblJul32.Text = "                       ";
+            this.lblJul32.UseWaitCursor = true;
             // 
             // lblJul31
             // 
@@ -3667,6 +3894,7 @@
             this.lblJul31.Size = new System.Drawing.Size(100, 18);
             this.lblJul31.TabIndex = 253;
             this.lblJul31.Text = "                       ";
+            this.lblJul31.UseWaitCursor = true;
             // 
             // lblJul30
             // 
@@ -3681,6 +3909,7 @@
             this.lblJul30.Size = new System.Drawing.Size(100, 18);
             this.lblJul30.TabIndex = 252;
             this.lblJul30.Text = "                       ";
+            this.lblJul30.UseWaitCursor = true;
             // 
             // lblJul35
             // 
@@ -3695,6 +3924,7 @@
             this.lblJul35.Size = new System.Drawing.Size(100, 18);
             this.lblJul35.TabIndex = 251;
             this.lblJul35.Text = "                       ";
+            this.lblJul35.UseWaitCursor = true;
             // 
             // lblJul29
             // 
@@ -3709,6 +3939,7 @@
             this.lblJul29.Size = new System.Drawing.Size(100, 18);
             this.lblJul29.TabIndex = 250;
             this.lblJul29.Text = "                       ";
+            this.lblJul29.UseWaitCursor = true;
             // 
             // lblJul27
             // 
@@ -3723,6 +3954,7 @@
             this.lblJul27.Size = new System.Drawing.Size(100, 18);
             this.lblJul27.TabIndex = 249;
             this.lblJul27.Text = "                       ";
+            this.lblJul27.UseWaitCursor = true;
             // 
             // lblJul26
             // 
@@ -3737,6 +3969,7 @@
             this.lblJul26.Size = new System.Drawing.Size(100, 18);
             this.lblJul26.TabIndex = 248;
             this.lblJul26.Text = "                       ";
+            this.lblJul26.UseWaitCursor = true;
             // 
             // lblJul25
             // 
@@ -3751,6 +3984,7 @@
             this.lblJul25.Size = new System.Drawing.Size(100, 18);
             this.lblJul25.TabIndex = 247;
             this.lblJul25.Text = "                       ";
+            this.lblJul25.UseWaitCursor = true;
             // 
             // lblJul24
             // 
@@ -3765,6 +3999,7 @@
             this.lblJul24.Size = new System.Drawing.Size(100, 18);
             this.lblJul24.TabIndex = 246;
             this.lblJul24.Text = "                       ";
+            this.lblJul24.UseWaitCursor = true;
             // 
             // lblJul23
             // 
@@ -3779,6 +4014,7 @@
             this.lblJul23.Size = new System.Drawing.Size(100, 18);
             this.lblJul23.TabIndex = 245;
             this.lblJul23.Text = "                       ";
+            this.lblJul23.UseWaitCursor = true;
             // 
             // lblJul22
             // 
@@ -3793,6 +4029,7 @@
             this.lblJul22.Size = new System.Drawing.Size(100, 18);
             this.lblJul22.TabIndex = 244;
             this.lblJul22.Text = "                       ";
+            this.lblJul22.UseWaitCursor = true;
             // 
             // lblJul20
             // 
@@ -3807,6 +4044,7 @@
             this.lblJul20.Size = new System.Drawing.Size(100, 18);
             this.lblJul20.TabIndex = 243;
             this.lblJul20.Text = "                       ";
+            this.lblJul20.UseWaitCursor = true;
             // 
             // lblJul19
             // 
@@ -3821,6 +4059,7 @@
             this.lblJul19.Size = new System.Drawing.Size(100, 18);
             this.lblJul19.TabIndex = 242;
             this.lblJul19.Text = "                       ";
+            this.lblJul19.UseWaitCursor = true;
             // 
             // lblJul17
             // 
@@ -3835,6 +4074,7 @@
             this.lblJul17.Size = new System.Drawing.Size(100, 18);
             this.lblJul17.TabIndex = 241;
             this.lblJul17.Text = "                       ";
+            this.lblJul17.UseWaitCursor = true;
             // 
             // lblJul18
             // 
@@ -3849,6 +4089,7 @@
             this.lblJul18.Size = new System.Drawing.Size(100, 18);
             this.lblJul18.TabIndex = 240;
             this.lblJul18.Text = "                       ";
+            this.lblJul18.UseWaitCursor = true;
             // 
             // lblJul16
             // 
@@ -3863,6 +4104,7 @@
             this.lblJul16.Size = new System.Drawing.Size(100, 18);
             this.lblJul16.TabIndex = 239;
             this.lblJul16.Text = "                       ";
+            this.lblJul16.UseWaitCursor = true;
             // 
             // lblJul15
             // 
@@ -3877,6 +4119,7 @@
             this.lblJul15.Size = new System.Drawing.Size(100, 18);
             this.lblJul15.TabIndex = 238;
             this.lblJul15.Text = "                       ";
+            this.lblJul15.UseWaitCursor = true;
             // 
             // lblJul13
             // 
@@ -3891,6 +4134,7 @@
             this.lblJul13.Size = new System.Drawing.Size(100, 18);
             this.lblJul13.TabIndex = 237;
             this.lblJul13.Text = "                       ";
+            this.lblJul13.UseWaitCursor = true;
             // 
             // lblJul12
             // 
@@ -3905,6 +4149,7 @@
             this.lblJul12.Size = new System.Drawing.Size(100, 18);
             this.lblJul12.TabIndex = 236;
             this.lblJul12.Text = "                       ";
+            this.lblJul12.UseWaitCursor = true;
             // 
             // lblJul11
             // 
@@ -3919,6 +4164,7 @@
             this.lblJul11.Size = new System.Drawing.Size(100, 18);
             this.lblJul11.TabIndex = 235;
             this.lblJul11.Text = "                       ";
+            this.lblJul11.UseWaitCursor = true;
             // 
             // lblJul10
             // 
@@ -3933,6 +4179,7 @@
             this.lblJul10.Size = new System.Drawing.Size(100, 18);
             this.lblJul10.TabIndex = 234;
             this.lblJul10.Text = "                       ";
+            this.lblJul10.UseWaitCursor = true;
             // 
             // lblJul9
             // 
@@ -3947,6 +4194,7 @@
             this.lblJul9.Size = new System.Drawing.Size(100, 18);
             this.lblJul9.TabIndex = 233;
             this.lblJul9.Text = "                       ";
+            this.lblJul9.UseWaitCursor = true;
             // 
             // lblJul8
             // 
@@ -3961,6 +4209,7 @@
             this.lblJul8.Size = new System.Drawing.Size(100, 18);
             this.lblJul8.TabIndex = 232;
             this.lblJul8.Text = "                       ";
+            this.lblJul8.UseWaitCursor = true;
             // 
             // lblJul28
             // 
@@ -3975,6 +4224,7 @@
             this.lblJul28.Size = new System.Drawing.Size(100, 18);
             this.lblJul28.TabIndex = 231;
             this.lblJul28.Text = "                       ";
+            this.lblJul28.UseWaitCursor = true;
             // 
             // lblJul21
             // 
@@ -3989,6 +4239,7 @@
             this.lblJul21.Size = new System.Drawing.Size(100, 18);
             this.lblJul21.TabIndex = 230;
             this.lblJul21.Text = "                       ";
+            this.lblJul21.UseWaitCursor = true;
             // 
             // lblJul14
             // 
@@ -4003,6 +4254,7 @@
             this.lblJul14.Size = new System.Drawing.Size(100, 18);
             this.lblJul14.TabIndex = 229;
             this.lblJul14.Text = "                       ";
+            this.lblJul14.UseWaitCursor = true;
             // 
             // lblJul7
             // 
@@ -4017,6 +4269,7 @@
             this.lblJul7.Size = new System.Drawing.Size(100, 18);
             this.lblJul7.TabIndex = 228;
             this.lblJul7.Text = "                       ";
+            this.lblJul7.UseWaitCursor = true;
             // 
             // lblJul6
             // 
@@ -4031,6 +4284,7 @@
             this.lblJul6.Size = new System.Drawing.Size(100, 18);
             this.lblJul6.TabIndex = 227;
             this.lblJul6.Text = "                       ";
+            this.lblJul6.UseWaitCursor = true;
             // 
             // lblJul5
             // 
@@ -4045,6 +4299,7 @@
             this.lblJul5.Size = new System.Drawing.Size(100, 18);
             this.lblJul5.TabIndex = 226;
             this.lblJul5.Text = "                       ";
+            this.lblJul5.UseWaitCursor = true;
             // 
             // lblJul4
             // 
@@ -4059,6 +4314,7 @@
             this.lblJul4.Size = new System.Drawing.Size(100, 18);
             this.lblJul4.TabIndex = 225;
             this.lblJul4.Text = "                       ";
+            this.lblJul4.UseWaitCursor = true;
             // 
             // lblJul3
             // 
@@ -4073,6 +4329,7 @@
             this.lblJul3.Size = new System.Drawing.Size(100, 18);
             this.lblJul3.TabIndex = 224;
             this.lblJul3.Text = "                       ";
+            this.lblJul3.UseWaitCursor = true;
             // 
             // lblJul2
             // 
@@ -4087,6 +4344,7 @@
             this.lblJul2.Size = new System.Drawing.Size(100, 18);
             this.lblJul2.TabIndex = 223;
             this.lblJul2.Text = "                       ";
+            this.lblJul2.UseWaitCursor = true;
             // 
             // lblJul1
             // 
@@ -4101,20 +4359,7 @@
             this.lblJul1.Size = new System.Drawing.Size(100, 18);
             this.lblJul1.TabIndex = 222;
             this.lblJul1.Text = "                       ";
-            // 
-            // lblAug38
-            // 
-            this.lblAug38.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblAug38.AutoSize = true;
-            this.lblAug38.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblAug38.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAug38.Location = new System.Drawing.Point(810, 899);
-            this.lblAug38.Name = "lblAug38";
-            this.lblAug38.Size = new System.Drawing.Size(100, 18);
-            this.lblAug38.TabIndex = 295;
-            this.lblAug38.Text = "                       ";
+            this.lblJul1.UseWaitCursor = true;
             // 
             // lblAug37
             // 
@@ -4124,25 +4369,27 @@
             this.lblAug37.AutoSize = true;
             this.lblAug37.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblAug37.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAug37.Location = new System.Drawing.Point(810, 874);
+            this.lblAug37.Location = new System.Drawing.Point(810, 899);
             this.lblAug37.Name = "lblAug37";
             this.lblAug37.Size = new System.Drawing.Size(100, 18);
-            this.lblAug37.TabIndex = 294;
+            this.lblAug37.TabIndex = 295;
             this.lblAug37.Text = "                       ";
+            this.lblAug37.UseWaitCursor = true;
             // 
-            // lblAug35
+            // lblAug36
             // 
-            this.lblAug35.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lblAug36.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblAug35.AutoSize = true;
-            this.lblAug35.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblAug35.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAug35.Location = new System.Drawing.Point(812, 827);
-            this.lblAug35.Name = "lblAug35";
-            this.lblAug35.Size = new System.Drawing.Size(100, 18);
-            this.lblAug35.TabIndex = 293;
-            this.lblAug35.Text = "                       ";
+            this.lblAug36.AutoSize = true;
+            this.lblAug36.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblAug36.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAug36.Location = new System.Drawing.Point(810, 874);
+            this.lblAug36.Name = "lblAug36";
+            this.lblAug36.Size = new System.Drawing.Size(100, 18);
+            this.lblAug36.TabIndex = 294;
+            this.lblAug36.Text = "                       ";
+            this.lblAug36.UseWaitCursor = true;
             // 
             // lblAug34
             // 
@@ -4152,11 +4399,12 @@
             this.lblAug34.AutoSize = true;
             this.lblAug34.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblAug34.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAug34.Location = new System.Drawing.Point(812, 800);
+            this.lblAug34.Location = new System.Drawing.Point(812, 827);
             this.lblAug34.Name = "lblAug34";
             this.lblAug34.Size = new System.Drawing.Size(100, 18);
-            this.lblAug34.TabIndex = 292;
+            this.lblAug34.TabIndex = 293;
             this.lblAug34.Text = "                       ";
+            this.lblAug34.UseWaitCursor = true;
             // 
             // lblAug33
             // 
@@ -4166,11 +4414,27 @@
             this.lblAug33.AutoSize = true;
             this.lblAug33.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblAug33.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAug33.Location = new System.Drawing.Point(809, 778);
+            this.lblAug33.Location = new System.Drawing.Point(812, 800);
             this.lblAug33.Name = "lblAug33";
             this.lblAug33.Size = new System.Drawing.Size(100, 18);
-            this.lblAug33.TabIndex = 291;
+            this.lblAug33.TabIndex = 292;
             this.lblAug33.Text = "                       ";
+            this.lblAug33.UseWaitCursor = true;
+            // 
+            // lblAug32
+            // 
+            this.lblAug32.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblAug32.AutoSize = true;
+            this.lblAug32.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblAug32.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAug32.Location = new System.Drawing.Point(809, 778);
+            this.lblAug32.Name = "lblAug32";
+            this.lblAug32.Size = new System.Drawing.Size(100, 18);
+            this.lblAug32.TabIndex = 291;
+            this.lblAug32.Text = "                       ";
+            this.lblAug32.UseWaitCursor = true;
             // 
             // lblAug31
             // 
@@ -4185,6 +4449,7 @@
             this.lblAug31.Size = new System.Drawing.Size(100, 18);
             this.lblAug31.TabIndex = 290;
             this.lblAug31.Text = "                       ";
+            this.lblAug31.UseWaitCursor = true;
             // 
             // lblAug30
             // 
@@ -4199,20 +4464,22 @@
             this.lblAug30.Size = new System.Drawing.Size(100, 18);
             this.lblAug30.TabIndex = 289;
             this.lblAug30.Text = "                       ";
+            this.lblAug30.UseWaitCursor = true;
             // 
-            // lblAug36
+            // lblAug35
             // 
-            this.lblAug36.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lblAug35.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblAug36.AutoSize = true;
-            this.lblAug36.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.lblAug36.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAug36.Location = new System.Drawing.Point(812, 851);
-            this.lblAug36.Name = "lblAug36";
-            this.lblAug36.Size = new System.Drawing.Size(100, 18);
-            this.lblAug36.TabIndex = 288;
-            this.lblAug36.Text = "                       ";
+            this.lblAug35.AutoSize = true;
+            this.lblAug35.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.lblAug35.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAug35.Location = new System.Drawing.Point(812, 851);
+            this.lblAug35.Name = "lblAug35";
+            this.lblAug35.Size = new System.Drawing.Size(100, 18);
+            this.lblAug35.TabIndex = 288;
+            this.lblAug35.Text = "                       ";
+            this.lblAug35.UseWaitCursor = true;
             // 
             // lblAug29
             // 
@@ -4227,6 +4494,7 @@
             this.lblAug29.Size = new System.Drawing.Size(100, 18);
             this.lblAug29.TabIndex = 287;
             this.lblAug29.Text = "                       ";
+            this.lblAug29.UseWaitCursor = true;
             // 
             // lblAug27
             // 
@@ -4241,6 +4509,7 @@
             this.lblAug27.Size = new System.Drawing.Size(100, 18);
             this.lblAug27.TabIndex = 286;
             this.lblAug27.Text = "                       ";
+            this.lblAug27.UseWaitCursor = true;
             // 
             // lblAug26
             // 
@@ -4255,6 +4524,7 @@
             this.lblAug26.Size = new System.Drawing.Size(100, 18);
             this.lblAug26.TabIndex = 285;
             this.lblAug26.Text = "                       ";
+            this.lblAug26.UseWaitCursor = true;
             // 
             // lblAug25
             // 
@@ -4269,6 +4539,7 @@
             this.lblAug25.Size = new System.Drawing.Size(100, 18);
             this.lblAug25.TabIndex = 284;
             this.lblAug25.Text = "                       ";
+            this.lblAug25.UseWaitCursor = true;
             // 
             // lblAug24
             // 
@@ -4283,6 +4554,7 @@
             this.lblAug24.Size = new System.Drawing.Size(100, 18);
             this.lblAug24.TabIndex = 283;
             this.lblAug24.Text = "                       ";
+            this.lblAug24.UseWaitCursor = true;
             // 
             // lblAug23
             // 
@@ -4297,6 +4569,7 @@
             this.lblAug23.Size = new System.Drawing.Size(100, 18);
             this.lblAug23.TabIndex = 282;
             this.lblAug23.Text = "                       ";
+            this.lblAug23.UseWaitCursor = true;
             // 
             // lblAug22
             // 
@@ -4311,6 +4584,7 @@
             this.lblAug22.Size = new System.Drawing.Size(100, 18);
             this.lblAug22.TabIndex = 281;
             this.lblAug22.Text = "                       ";
+            this.lblAug22.UseWaitCursor = true;
             // 
             // lblAug20
             // 
@@ -4325,6 +4599,7 @@
             this.lblAug20.Size = new System.Drawing.Size(100, 18);
             this.lblAug20.TabIndex = 280;
             this.lblAug20.Text = "                       ";
+            this.lblAug20.UseWaitCursor = true;
             // 
             // lblAug19
             // 
@@ -4339,6 +4614,7 @@
             this.lblAug19.Size = new System.Drawing.Size(100, 18);
             this.lblAug19.TabIndex = 279;
             this.lblAug19.Text = "                       ";
+            this.lblAug19.UseWaitCursor = true;
             // 
             // lblAug17
             // 
@@ -4353,6 +4629,7 @@
             this.lblAug17.Size = new System.Drawing.Size(100, 18);
             this.lblAug17.TabIndex = 278;
             this.lblAug17.Text = "                       ";
+            this.lblAug17.UseWaitCursor = true;
             // 
             // lblAug18
             // 
@@ -4367,6 +4644,7 @@
             this.lblAug18.Size = new System.Drawing.Size(100, 18);
             this.lblAug18.TabIndex = 277;
             this.lblAug18.Text = "                       ";
+            this.lblAug18.UseWaitCursor = true;
             // 
             // lblAug16
             // 
@@ -4381,6 +4659,7 @@
             this.lblAug16.Size = new System.Drawing.Size(100, 18);
             this.lblAug16.TabIndex = 276;
             this.lblAug16.Text = "                       ";
+            this.lblAug16.UseWaitCursor = true;
             // 
             // lblAug15
             // 
@@ -4395,6 +4674,7 @@
             this.lblAug15.Size = new System.Drawing.Size(100, 18);
             this.lblAug15.TabIndex = 275;
             this.lblAug15.Text = "                       ";
+            this.lblAug15.UseWaitCursor = true;
             // 
             // lblAug13
             // 
@@ -4409,6 +4689,7 @@
             this.lblAug13.Size = new System.Drawing.Size(100, 18);
             this.lblAug13.TabIndex = 274;
             this.lblAug13.Text = "                       ";
+            this.lblAug13.UseWaitCursor = true;
             // 
             // lblAug12
             // 
@@ -4423,6 +4704,7 @@
             this.lblAug12.Size = new System.Drawing.Size(100, 18);
             this.lblAug12.TabIndex = 273;
             this.lblAug12.Text = "                       ";
+            this.lblAug12.UseWaitCursor = true;
             // 
             // lblAug11
             // 
@@ -4437,6 +4719,7 @@
             this.lblAug11.Size = new System.Drawing.Size(100, 18);
             this.lblAug11.TabIndex = 272;
             this.lblAug11.Text = "                       ";
+            this.lblAug11.UseWaitCursor = true;
             // 
             // lblAug10
             // 
@@ -4451,6 +4734,7 @@
             this.lblAug10.Size = new System.Drawing.Size(100, 18);
             this.lblAug10.TabIndex = 271;
             this.lblAug10.Text = "                       ";
+            this.lblAug10.UseWaitCursor = true;
             // 
             // lblAug9
             // 
@@ -4465,6 +4749,7 @@
             this.lblAug9.Size = new System.Drawing.Size(100, 18);
             this.lblAug9.TabIndex = 270;
             this.lblAug9.Text = "                       ";
+            this.lblAug9.UseWaitCursor = true;
             // 
             // lblAug8
             // 
@@ -4479,6 +4764,7 @@
             this.lblAug8.Size = new System.Drawing.Size(100, 18);
             this.lblAug8.TabIndex = 269;
             this.lblAug8.Text = "                       ";
+            this.lblAug8.UseWaitCursor = true;
             // 
             // lblAug28
             // 
@@ -4493,6 +4779,7 @@
             this.lblAug28.Size = new System.Drawing.Size(100, 18);
             this.lblAug28.TabIndex = 268;
             this.lblAug28.Text = "                       ";
+            this.lblAug28.UseWaitCursor = true;
             // 
             // lblAug21
             // 
@@ -4507,6 +4794,7 @@
             this.lblAug21.Size = new System.Drawing.Size(100, 18);
             this.lblAug21.TabIndex = 267;
             this.lblAug21.Text = "                       ";
+            this.lblAug21.UseWaitCursor = true;
             // 
             // lblAug14
             // 
@@ -4521,6 +4809,7 @@
             this.lblAug14.Size = new System.Drawing.Size(100, 18);
             this.lblAug14.TabIndex = 266;
             this.lblAug14.Text = "                       ";
+            this.lblAug14.UseWaitCursor = true;
             // 
             // lblAug7
             // 
@@ -4535,6 +4824,7 @@
             this.lblAug7.Size = new System.Drawing.Size(100, 18);
             this.lblAug7.TabIndex = 265;
             this.lblAug7.Text = "                       ";
+            this.lblAug7.UseWaitCursor = true;
             // 
             // lblAug6
             // 
@@ -4549,6 +4839,7 @@
             this.lblAug6.Size = new System.Drawing.Size(100, 18);
             this.lblAug6.TabIndex = 264;
             this.lblAug6.Text = "                       ";
+            this.lblAug6.UseWaitCursor = true;
             // 
             // lblAug5
             // 
@@ -4563,6 +4854,7 @@
             this.lblAug5.Size = new System.Drawing.Size(100, 18);
             this.lblAug5.TabIndex = 263;
             this.lblAug5.Text = "                       ";
+            this.lblAug5.UseWaitCursor = true;
             // 
             // lblAug4
             // 
@@ -4577,6 +4869,7 @@
             this.lblAug4.Size = new System.Drawing.Size(100, 18);
             this.lblAug4.TabIndex = 262;
             this.lblAug4.Text = "                       ";
+            this.lblAug4.UseWaitCursor = true;
             // 
             // lblAug3
             // 
@@ -4591,6 +4884,7 @@
             this.lblAug3.Size = new System.Drawing.Size(100, 18);
             this.lblAug3.TabIndex = 261;
             this.lblAug3.Text = "                       ";
+            this.lblAug3.UseWaitCursor = true;
             // 
             // lblAug2
             // 
@@ -4605,6 +4899,7 @@
             this.lblAug2.Size = new System.Drawing.Size(100, 18);
             this.lblAug2.TabIndex = 260;
             this.lblAug2.Text = "                       ";
+            this.lblAug2.UseWaitCursor = true;
             // 
             // lblAug1
             // 
@@ -4619,6 +4914,7 @@
             this.lblAug1.Size = new System.Drawing.Size(100, 18);
             this.lblAug1.TabIndex = 259;
             this.lblAug1.Text = "                       ";
+            this.lblAug1.UseWaitCursor = true;
             // 
             // lblSep37
             // 
@@ -4633,6 +4929,7 @@
             this.lblSep37.Size = new System.Drawing.Size(100, 18);
             this.lblSep37.TabIndex = 332;
             this.lblSep37.Text = "                       ";
+            this.lblSep37.UseWaitCursor = true;
             // 
             // lblSep36
             // 
@@ -4647,6 +4944,7 @@
             this.lblSep36.Size = new System.Drawing.Size(100, 18);
             this.lblSep36.TabIndex = 331;
             this.lblSep36.Text = "                       ";
+            this.lblSep36.UseWaitCursor = true;
             // 
             // lblSep34
             // 
@@ -4661,6 +4959,7 @@
             this.lblSep34.Size = new System.Drawing.Size(100, 18);
             this.lblSep34.TabIndex = 330;
             this.lblSep34.Text = "                       ";
+            this.lblSep34.UseWaitCursor = true;
             // 
             // lblSep33
             // 
@@ -4675,6 +4974,7 @@
             this.lblSep33.Size = new System.Drawing.Size(100, 18);
             this.lblSep33.TabIndex = 329;
             this.lblSep33.Text = "                       ";
+            this.lblSep33.UseWaitCursor = true;
             // 
             // lblSep32
             // 
@@ -4689,6 +4989,7 @@
             this.lblSep32.Size = new System.Drawing.Size(100, 18);
             this.lblSep32.TabIndex = 328;
             this.lblSep32.Text = "                       ";
+            this.lblSep32.UseWaitCursor = true;
             // 
             // lblSep31
             // 
@@ -4703,6 +5004,7 @@
             this.lblSep31.Size = new System.Drawing.Size(100, 18);
             this.lblSep31.TabIndex = 327;
             this.lblSep31.Text = "                       ";
+            this.lblSep31.UseWaitCursor = true;
             // 
             // lblSep30
             // 
@@ -4717,6 +5019,7 @@
             this.lblSep30.Size = new System.Drawing.Size(100, 18);
             this.lblSep30.TabIndex = 326;
             this.lblSep30.Text = "                       ";
+            this.lblSep30.UseWaitCursor = true;
             // 
             // lblSep35
             // 
@@ -4731,6 +5034,7 @@
             this.lblSep35.Size = new System.Drawing.Size(100, 18);
             this.lblSep35.TabIndex = 325;
             this.lblSep35.Text = "                       ";
+            this.lblSep35.UseWaitCursor = true;
             // 
             // lblSep29
             // 
@@ -4745,6 +5049,7 @@
             this.lblSep29.Size = new System.Drawing.Size(100, 18);
             this.lblSep29.TabIndex = 324;
             this.lblSep29.Text = "                       ";
+            this.lblSep29.UseWaitCursor = true;
             // 
             // lblSep27
             // 
@@ -4759,6 +5064,7 @@
             this.lblSep27.Size = new System.Drawing.Size(100, 18);
             this.lblSep27.TabIndex = 323;
             this.lblSep27.Text = "                       ";
+            this.lblSep27.UseWaitCursor = true;
             // 
             // lblSep26
             // 
@@ -4773,6 +5079,7 @@
             this.lblSep26.Size = new System.Drawing.Size(100, 18);
             this.lblSep26.TabIndex = 322;
             this.lblSep26.Text = "                       ";
+            this.lblSep26.UseWaitCursor = true;
             // 
             // lblSep25
             // 
@@ -4787,6 +5094,7 @@
             this.lblSep25.Size = new System.Drawing.Size(100, 18);
             this.lblSep25.TabIndex = 321;
             this.lblSep25.Text = "                       ";
+            this.lblSep25.UseWaitCursor = true;
             // 
             // lblSep24
             // 
@@ -4801,6 +5109,7 @@
             this.lblSep24.Size = new System.Drawing.Size(100, 18);
             this.lblSep24.TabIndex = 320;
             this.lblSep24.Text = "                       ";
+            this.lblSep24.UseWaitCursor = true;
             // 
             // lblSep23
             // 
@@ -4815,6 +5124,7 @@
             this.lblSep23.Size = new System.Drawing.Size(100, 18);
             this.lblSep23.TabIndex = 319;
             this.lblSep23.Text = "                       ";
+            this.lblSep23.UseWaitCursor = true;
             // 
             // lblSep22
             // 
@@ -4829,6 +5139,7 @@
             this.lblSep22.Size = new System.Drawing.Size(100, 18);
             this.lblSep22.TabIndex = 318;
             this.lblSep22.Text = "                       ";
+            this.lblSep22.UseWaitCursor = true;
             // 
             // lblSep20
             // 
@@ -4843,6 +5154,7 @@
             this.lblSep20.Size = new System.Drawing.Size(100, 18);
             this.lblSep20.TabIndex = 317;
             this.lblSep20.Text = "                       ";
+            this.lblSep20.UseWaitCursor = true;
             // 
             // lblSep19
             // 
@@ -4857,6 +5169,7 @@
             this.lblSep19.Size = new System.Drawing.Size(100, 18);
             this.lblSep19.TabIndex = 316;
             this.lblSep19.Text = "                       ";
+            this.lblSep19.UseWaitCursor = true;
             // 
             // lblSep17
             // 
@@ -4871,6 +5184,7 @@
             this.lblSep17.Size = new System.Drawing.Size(100, 18);
             this.lblSep17.TabIndex = 315;
             this.lblSep17.Text = "                       ";
+            this.lblSep17.UseWaitCursor = true;
             // 
             // lblSep18
             // 
@@ -4885,6 +5199,7 @@
             this.lblSep18.Size = new System.Drawing.Size(100, 18);
             this.lblSep18.TabIndex = 314;
             this.lblSep18.Text = "                       ";
+            this.lblSep18.UseWaitCursor = true;
             // 
             // lblSep16
             // 
@@ -4899,6 +5214,7 @@
             this.lblSep16.Size = new System.Drawing.Size(100, 18);
             this.lblSep16.TabIndex = 313;
             this.lblSep16.Text = "                       ";
+            this.lblSep16.UseWaitCursor = true;
             // 
             // lblSep15
             // 
@@ -4913,6 +5229,7 @@
             this.lblSep15.Size = new System.Drawing.Size(100, 18);
             this.lblSep15.TabIndex = 312;
             this.lblSep15.Text = "                       ";
+            this.lblSep15.UseWaitCursor = true;
             // 
             // lblSep13
             // 
@@ -4927,6 +5244,7 @@
             this.lblSep13.Size = new System.Drawing.Size(100, 18);
             this.lblSep13.TabIndex = 311;
             this.lblSep13.Text = "                       ";
+            this.lblSep13.UseWaitCursor = true;
             // 
             // lblSep12
             // 
@@ -4941,6 +5259,7 @@
             this.lblSep12.Size = new System.Drawing.Size(100, 18);
             this.lblSep12.TabIndex = 310;
             this.lblSep12.Text = "                       ";
+            this.lblSep12.UseWaitCursor = true;
             // 
             // lblSep11
             // 
@@ -4955,6 +5274,7 @@
             this.lblSep11.Size = new System.Drawing.Size(100, 18);
             this.lblSep11.TabIndex = 309;
             this.lblSep11.Text = "                       ";
+            this.lblSep11.UseWaitCursor = true;
             // 
             // lblSep10
             // 
@@ -4969,6 +5289,7 @@
             this.lblSep10.Size = new System.Drawing.Size(100, 18);
             this.lblSep10.TabIndex = 308;
             this.lblSep10.Text = "                       ";
+            this.lblSep10.UseWaitCursor = true;
             // 
             // lblSep9
             // 
@@ -4983,6 +5304,7 @@
             this.lblSep9.Size = new System.Drawing.Size(100, 18);
             this.lblSep9.TabIndex = 307;
             this.lblSep9.Text = "                       ";
+            this.lblSep9.UseWaitCursor = true;
             // 
             // lblSep8
             // 
@@ -4997,6 +5319,7 @@
             this.lblSep8.Size = new System.Drawing.Size(100, 18);
             this.lblSep8.TabIndex = 306;
             this.lblSep8.Text = "                       ";
+            this.lblSep8.UseWaitCursor = true;
             // 
             // lblSep28
             // 
@@ -5011,6 +5334,7 @@
             this.lblSep28.Size = new System.Drawing.Size(100, 18);
             this.lblSep28.TabIndex = 305;
             this.lblSep28.Text = "                       ";
+            this.lblSep28.UseWaitCursor = true;
             // 
             // lblSep21
             // 
@@ -5025,6 +5349,7 @@
             this.lblSep21.Size = new System.Drawing.Size(100, 18);
             this.lblSep21.TabIndex = 304;
             this.lblSep21.Text = "                       ";
+            this.lblSep21.UseWaitCursor = true;
             // 
             // lblSep14
             // 
@@ -5039,6 +5364,7 @@
             this.lblSep14.Size = new System.Drawing.Size(100, 18);
             this.lblSep14.TabIndex = 303;
             this.lblSep14.Text = "                       ";
+            this.lblSep14.UseWaitCursor = true;
             // 
             // lblSep7
             // 
@@ -5053,6 +5379,7 @@
             this.lblSep7.Size = new System.Drawing.Size(100, 18);
             this.lblSep7.TabIndex = 302;
             this.lblSep7.Text = "                       ";
+            this.lblSep7.UseWaitCursor = true;
             // 
             // lblSep6
             // 
@@ -5067,6 +5394,7 @@
             this.lblSep6.Size = new System.Drawing.Size(100, 18);
             this.lblSep6.TabIndex = 301;
             this.lblSep6.Text = "                       ";
+            this.lblSep6.UseWaitCursor = true;
             // 
             // lblSep5
             // 
@@ -5081,6 +5409,7 @@
             this.lblSep5.Size = new System.Drawing.Size(100, 18);
             this.lblSep5.TabIndex = 300;
             this.lblSep5.Text = "                       ";
+            this.lblSep5.UseWaitCursor = true;
             // 
             // lblSep4
             // 
@@ -5095,6 +5424,7 @@
             this.lblSep4.Size = new System.Drawing.Size(100, 18);
             this.lblSep4.TabIndex = 299;
             this.lblSep4.Text = "                       ";
+            this.lblSep4.UseWaitCursor = true;
             // 
             // lblSep3
             // 
@@ -5109,6 +5439,7 @@
             this.lblSep3.Size = new System.Drawing.Size(100, 18);
             this.lblSep3.TabIndex = 298;
             this.lblSep3.Text = "                       ";
+            this.lblSep3.UseWaitCursor = true;
             // 
             // lblSep2
             // 
@@ -5123,6 +5454,7 @@
             this.lblSep2.Size = new System.Drawing.Size(100, 18);
             this.lblSep2.TabIndex = 297;
             this.lblSep2.Text = "                       ";
+            this.lblSep2.UseWaitCursor = true;
             // 
             // lblSep1
             // 
@@ -5137,6 +5469,7 @@
             this.lblSep1.Size = new System.Drawing.Size(100, 18);
             this.lblSep1.TabIndex = 296;
             this.lblSep1.Text = "                       ";
+            this.lblSep1.UseWaitCursor = true;
             // 
             // lblOct37
             // 
@@ -5151,6 +5484,7 @@
             this.lblOct37.Size = new System.Drawing.Size(100, 18);
             this.lblOct37.TabIndex = 369;
             this.lblOct37.Text = "                       ";
+            this.lblOct37.UseWaitCursor = true;
             // 
             // lblOct36
             // 
@@ -5165,6 +5499,7 @@
             this.lblOct36.Size = new System.Drawing.Size(100, 18);
             this.lblOct36.TabIndex = 368;
             this.lblOct36.Text = "                       ";
+            this.lblOct36.UseWaitCursor = true;
             // 
             // lblOct34
             // 
@@ -5179,6 +5514,7 @@
             this.lblOct34.Size = new System.Drawing.Size(100, 18);
             this.lblOct34.TabIndex = 367;
             this.lblOct34.Text = "                       ";
+            this.lblOct34.UseWaitCursor = true;
             // 
             // lblOct33
             // 
@@ -5193,6 +5529,7 @@
             this.lblOct33.Size = new System.Drawing.Size(100, 18);
             this.lblOct33.TabIndex = 366;
             this.lblOct33.Text = "                       ";
+            this.lblOct33.UseWaitCursor = true;
             // 
             // lblOct32
             // 
@@ -5207,6 +5544,7 @@
             this.lblOct32.Size = new System.Drawing.Size(100, 18);
             this.lblOct32.TabIndex = 365;
             this.lblOct32.Text = "                       ";
+            this.lblOct32.UseWaitCursor = true;
             // 
             // lblOct31
             // 
@@ -5221,6 +5559,7 @@
             this.lblOct31.Size = new System.Drawing.Size(100, 18);
             this.lblOct31.TabIndex = 364;
             this.lblOct31.Text = "                       ";
+            this.lblOct31.UseWaitCursor = true;
             // 
             // lblOct30
             // 
@@ -5235,6 +5574,7 @@
             this.lblOct30.Size = new System.Drawing.Size(100, 18);
             this.lblOct30.TabIndex = 363;
             this.lblOct30.Text = "                       ";
+            this.lblOct30.UseWaitCursor = true;
             // 
             // lblOct35
             // 
@@ -5249,6 +5589,7 @@
             this.lblOct35.Size = new System.Drawing.Size(100, 18);
             this.lblOct35.TabIndex = 362;
             this.lblOct35.Text = "                       ";
+            this.lblOct35.UseWaitCursor = true;
             // 
             // lblOct29
             // 
@@ -5263,6 +5604,7 @@
             this.lblOct29.Size = new System.Drawing.Size(100, 18);
             this.lblOct29.TabIndex = 361;
             this.lblOct29.Text = "                       ";
+            this.lblOct29.UseWaitCursor = true;
             // 
             // lblOct27
             // 
@@ -5277,6 +5619,7 @@
             this.lblOct27.Size = new System.Drawing.Size(100, 18);
             this.lblOct27.TabIndex = 360;
             this.lblOct27.Text = "                       ";
+            this.lblOct27.UseWaitCursor = true;
             // 
             // lblOct26
             // 
@@ -5291,6 +5634,7 @@
             this.lblOct26.Size = new System.Drawing.Size(100, 18);
             this.lblOct26.TabIndex = 359;
             this.lblOct26.Text = "                       ";
+            this.lblOct26.UseWaitCursor = true;
             // 
             // lblOct25
             // 
@@ -5305,6 +5649,7 @@
             this.lblOct25.Size = new System.Drawing.Size(100, 18);
             this.lblOct25.TabIndex = 358;
             this.lblOct25.Text = "                       ";
+            this.lblOct25.UseWaitCursor = true;
             // 
             // lblOct24
             // 
@@ -5319,6 +5664,7 @@
             this.lblOct24.Size = new System.Drawing.Size(100, 18);
             this.lblOct24.TabIndex = 357;
             this.lblOct24.Text = "                       ";
+            this.lblOct24.UseWaitCursor = true;
             // 
             // lblOct23
             // 
@@ -5333,6 +5679,7 @@
             this.lblOct23.Size = new System.Drawing.Size(100, 18);
             this.lblOct23.TabIndex = 356;
             this.lblOct23.Text = "                       ";
+            this.lblOct23.UseWaitCursor = true;
             // 
             // lblOct22
             // 
@@ -5347,6 +5694,7 @@
             this.lblOct22.Size = new System.Drawing.Size(100, 18);
             this.lblOct22.TabIndex = 355;
             this.lblOct22.Text = "                       ";
+            this.lblOct22.UseWaitCursor = true;
             // 
             // lblOct20
             // 
@@ -5361,6 +5709,7 @@
             this.lblOct20.Size = new System.Drawing.Size(100, 18);
             this.lblOct20.TabIndex = 354;
             this.lblOct20.Text = "                       ";
+            this.lblOct20.UseWaitCursor = true;
             // 
             // lblOct19
             // 
@@ -5375,6 +5724,7 @@
             this.lblOct19.Size = new System.Drawing.Size(100, 18);
             this.lblOct19.TabIndex = 353;
             this.lblOct19.Text = "                       ";
+            this.lblOct19.UseWaitCursor = true;
             // 
             // lblOct17
             // 
@@ -5389,6 +5739,7 @@
             this.lblOct17.Size = new System.Drawing.Size(100, 18);
             this.lblOct17.TabIndex = 352;
             this.lblOct17.Text = "                       ";
+            this.lblOct17.UseWaitCursor = true;
             // 
             // lblOct18
             // 
@@ -5403,6 +5754,7 @@
             this.lblOct18.Size = new System.Drawing.Size(100, 18);
             this.lblOct18.TabIndex = 351;
             this.lblOct18.Text = "                       ";
+            this.lblOct18.UseWaitCursor = true;
             // 
             // lblOct16
             // 
@@ -5417,6 +5769,7 @@
             this.lblOct16.Size = new System.Drawing.Size(100, 18);
             this.lblOct16.TabIndex = 350;
             this.lblOct16.Text = "                       ";
+            this.lblOct16.UseWaitCursor = true;
             // 
             // lblOct15
             // 
@@ -5431,6 +5784,7 @@
             this.lblOct15.Size = new System.Drawing.Size(100, 18);
             this.lblOct15.TabIndex = 349;
             this.lblOct15.Text = "                       ";
+            this.lblOct15.UseWaitCursor = true;
             // 
             // lblOct13
             // 
@@ -5445,6 +5799,7 @@
             this.lblOct13.Size = new System.Drawing.Size(100, 18);
             this.lblOct13.TabIndex = 348;
             this.lblOct13.Text = "                       ";
+            this.lblOct13.UseWaitCursor = true;
             // 
             // lblOct12
             // 
@@ -5459,6 +5814,7 @@
             this.lblOct12.Size = new System.Drawing.Size(100, 18);
             this.lblOct12.TabIndex = 347;
             this.lblOct12.Text = "                       ";
+            this.lblOct12.UseWaitCursor = true;
             // 
             // lblOct11
             // 
@@ -5473,6 +5829,7 @@
             this.lblOct11.Size = new System.Drawing.Size(100, 18);
             this.lblOct11.TabIndex = 346;
             this.lblOct11.Text = "                       ";
+            this.lblOct11.UseWaitCursor = true;
             // 
             // lblOct10
             // 
@@ -5487,6 +5844,7 @@
             this.lblOct10.Size = new System.Drawing.Size(100, 18);
             this.lblOct10.TabIndex = 345;
             this.lblOct10.Text = "                       ";
+            this.lblOct10.UseWaitCursor = true;
             // 
             // lblOct9
             // 
@@ -5501,6 +5859,7 @@
             this.lblOct9.Size = new System.Drawing.Size(100, 18);
             this.lblOct9.TabIndex = 344;
             this.lblOct9.Text = "                       ";
+            this.lblOct9.UseWaitCursor = true;
             // 
             // lblOct8
             // 
@@ -5515,6 +5874,7 @@
             this.lblOct8.Size = new System.Drawing.Size(100, 18);
             this.lblOct8.TabIndex = 343;
             this.lblOct8.Text = "                       ";
+            this.lblOct8.UseWaitCursor = true;
             // 
             // lblOct28
             // 
@@ -5529,6 +5889,7 @@
             this.lblOct28.Size = new System.Drawing.Size(100, 18);
             this.lblOct28.TabIndex = 342;
             this.lblOct28.Text = "                       ";
+            this.lblOct28.UseWaitCursor = true;
             // 
             // lblOct21
             // 
@@ -5543,6 +5904,7 @@
             this.lblOct21.Size = new System.Drawing.Size(100, 18);
             this.lblOct21.TabIndex = 341;
             this.lblOct21.Text = "                       ";
+            this.lblOct21.UseWaitCursor = true;
             // 
             // lblOct14
             // 
@@ -5557,6 +5919,7 @@
             this.lblOct14.Size = new System.Drawing.Size(100, 18);
             this.lblOct14.TabIndex = 340;
             this.lblOct14.Text = "                       ";
+            this.lblOct14.UseWaitCursor = true;
             // 
             // lblOct7
             // 
@@ -5571,6 +5934,7 @@
             this.lblOct7.Size = new System.Drawing.Size(100, 18);
             this.lblOct7.TabIndex = 339;
             this.lblOct7.Text = "                       ";
+            this.lblOct7.UseWaitCursor = true;
             // 
             // lblOct6
             // 
@@ -5585,6 +5949,7 @@
             this.lblOct6.Size = new System.Drawing.Size(100, 18);
             this.lblOct6.TabIndex = 338;
             this.lblOct6.Text = "                       ";
+            this.lblOct6.UseWaitCursor = true;
             // 
             // lblOct5
             // 
@@ -5599,6 +5964,7 @@
             this.lblOct5.Size = new System.Drawing.Size(100, 18);
             this.lblOct5.TabIndex = 337;
             this.lblOct5.Text = "                       ";
+            this.lblOct5.UseWaitCursor = true;
             // 
             // lblOct4
             // 
@@ -5613,6 +5979,7 @@
             this.lblOct4.Size = new System.Drawing.Size(100, 18);
             this.lblOct4.TabIndex = 336;
             this.lblOct4.Text = "                       ";
+            this.lblOct4.UseWaitCursor = true;
             // 
             // lblOct3
             // 
@@ -5627,6 +5994,7 @@
             this.lblOct3.Size = new System.Drawing.Size(100, 18);
             this.lblOct3.TabIndex = 335;
             this.lblOct3.Text = "                       ";
+            this.lblOct3.UseWaitCursor = true;
             // 
             // lblOct2
             // 
@@ -5641,6 +6009,7 @@
             this.lblOct2.Size = new System.Drawing.Size(100, 18);
             this.lblOct2.TabIndex = 334;
             this.lblOct2.Text = "                       ";
+            this.lblOct2.UseWaitCursor = true;
             // 
             // lblOct1
             // 
@@ -5655,6 +6024,7 @@
             this.lblOct1.Size = new System.Drawing.Size(100, 18);
             this.lblOct1.TabIndex = 333;
             this.lblOct1.Text = "                       ";
+            this.lblOct1.UseWaitCursor = true;
             // 
             // lblNov37
             // 
@@ -5669,6 +6039,7 @@
             this.lblNov37.Size = new System.Drawing.Size(100, 18);
             this.lblNov37.TabIndex = 406;
             this.lblNov37.Text = "                       ";
+            this.lblNov37.UseWaitCursor = true;
             // 
             // lblNov36
             // 
@@ -5683,6 +6054,7 @@
             this.lblNov36.Size = new System.Drawing.Size(100, 18);
             this.lblNov36.TabIndex = 405;
             this.lblNov36.Text = "                       ";
+            this.lblNov36.UseWaitCursor = true;
             // 
             // lblNov34
             // 
@@ -5697,6 +6069,7 @@
             this.lblNov34.Size = new System.Drawing.Size(100, 18);
             this.lblNov34.TabIndex = 404;
             this.lblNov34.Text = "                       ";
+            this.lblNov34.UseWaitCursor = true;
             // 
             // lblNov33
             // 
@@ -5711,6 +6084,7 @@
             this.lblNov33.Size = new System.Drawing.Size(100, 18);
             this.lblNov33.TabIndex = 403;
             this.lblNov33.Text = "                       ";
+            this.lblNov33.UseWaitCursor = true;
             // 
             // lblNov32
             // 
@@ -5725,6 +6099,7 @@
             this.lblNov32.Size = new System.Drawing.Size(100, 18);
             this.lblNov32.TabIndex = 402;
             this.lblNov32.Text = "                       ";
+            this.lblNov32.UseWaitCursor = true;
             // 
             // lblNov31
             // 
@@ -5739,6 +6114,7 @@
             this.lblNov31.Size = new System.Drawing.Size(100, 18);
             this.lblNov31.TabIndex = 401;
             this.lblNov31.Text = "                       ";
+            this.lblNov31.UseWaitCursor = true;
             // 
             // lblNov30
             // 
@@ -5753,6 +6129,7 @@
             this.lblNov30.Size = new System.Drawing.Size(100, 18);
             this.lblNov30.TabIndex = 400;
             this.lblNov30.Text = "                       ";
+            this.lblNov30.UseWaitCursor = true;
             // 
             // lblNov35
             // 
@@ -5767,6 +6144,7 @@
             this.lblNov35.Size = new System.Drawing.Size(100, 18);
             this.lblNov35.TabIndex = 399;
             this.lblNov35.Text = "                       ";
+            this.lblNov35.UseWaitCursor = true;
             // 
             // lblNov29
             // 
@@ -5781,6 +6159,7 @@
             this.lblNov29.Size = new System.Drawing.Size(100, 18);
             this.lblNov29.TabIndex = 398;
             this.lblNov29.Text = "                       ";
+            this.lblNov29.UseWaitCursor = true;
             // 
             // lblNov27
             // 
@@ -5795,6 +6174,7 @@
             this.lblNov27.Size = new System.Drawing.Size(100, 18);
             this.lblNov27.TabIndex = 397;
             this.lblNov27.Text = "                       ";
+            this.lblNov27.UseWaitCursor = true;
             // 
             // lblNov26
             // 
@@ -5809,6 +6189,7 @@
             this.lblNov26.Size = new System.Drawing.Size(100, 18);
             this.lblNov26.TabIndex = 396;
             this.lblNov26.Text = "                       ";
+            this.lblNov26.UseWaitCursor = true;
             // 
             // lblNov25
             // 
@@ -5823,6 +6204,7 @@
             this.lblNov25.Size = new System.Drawing.Size(100, 18);
             this.lblNov25.TabIndex = 395;
             this.lblNov25.Text = "                       ";
+            this.lblNov25.UseWaitCursor = true;
             // 
             // lblNov24
             // 
@@ -5837,6 +6219,7 @@
             this.lblNov24.Size = new System.Drawing.Size(100, 18);
             this.lblNov24.TabIndex = 394;
             this.lblNov24.Text = "                       ";
+            this.lblNov24.UseWaitCursor = true;
             // 
             // lblNov23
             // 
@@ -5851,6 +6234,7 @@
             this.lblNov23.Size = new System.Drawing.Size(100, 18);
             this.lblNov23.TabIndex = 393;
             this.lblNov23.Text = "                       ";
+            this.lblNov23.UseWaitCursor = true;
             // 
             // lblNov22
             // 
@@ -5865,6 +6249,7 @@
             this.lblNov22.Size = new System.Drawing.Size(100, 18);
             this.lblNov22.TabIndex = 392;
             this.lblNov22.Text = "                       ";
+            this.lblNov22.UseWaitCursor = true;
             // 
             // lblNov20
             // 
@@ -5879,6 +6264,7 @@
             this.lblNov20.Size = new System.Drawing.Size(100, 18);
             this.lblNov20.TabIndex = 391;
             this.lblNov20.Text = "                       ";
+            this.lblNov20.UseWaitCursor = true;
             // 
             // lblNov19
             // 
@@ -5893,6 +6279,7 @@
             this.lblNov19.Size = new System.Drawing.Size(100, 18);
             this.lblNov19.TabIndex = 390;
             this.lblNov19.Text = "                       ";
+            this.lblNov19.UseWaitCursor = true;
             // 
             // lblNov17
             // 
@@ -5907,6 +6294,7 @@
             this.lblNov17.Size = new System.Drawing.Size(100, 18);
             this.lblNov17.TabIndex = 389;
             this.lblNov17.Text = "                       ";
+            this.lblNov17.UseWaitCursor = true;
             // 
             // lblNov18
             // 
@@ -5921,6 +6309,7 @@
             this.lblNov18.Size = new System.Drawing.Size(100, 18);
             this.lblNov18.TabIndex = 388;
             this.lblNov18.Text = "                       ";
+            this.lblNov18.UseWaitCursor = true;
             // 
             // lblNov16
             // 
@@ -5935,6 +6324,7 @@
             this.lblNov16.Size = new System.Drawing.Size(100, 18);
             this.lblNov16.TabIndex = 387;
             this.lblNov16.Text = "                       ";
+            this.lblNov16.UseWaitCursor = true;
             // 
             // lblNov15
             // 
@@ -5949,6 +6339,7 @@
             this.lblNov15.Size = new System.Drawing.Size(100, 18);
             this.lblNov15.TabIndex = 386;
             this.lblNov15.Text = "                       ";
+            this.lblNov15.UseWaitCursor = true;
             // 
             // lblNov13
             // 
@@ -5963,6 +6354,7 @@
             this.lblNov13.Size = new System.Drawing.Size(100, 18);
             this.lblNov13.TabIndex = 385;
             this.lblNov13.Text = "                       ";
+            this.lblNov13.UseWaitCursor = true;
             // 
             // lblNov12
             // 
@@ -5977,6 +6369,7 @@
             this.lblNov12.Size = new System.Drawing.Size(100, 18);
             this.lblNov12.TabIndex = 384;
             this.lblNov12.Text = "                       ";
+            this.lblNov12.UseWaitCursor = true;
             // 
             // lblNov11
             // 
@@ -5991,6 +6384,7 @@
             this.lblNov11.Size = new System.Drawing.Size(100, 18);
             this.lblNov11.TabIndex = 383;
             this.lblNov11.Text = "                       ";
+            this.lblNov11.UseWaitCursor = true;
             // 
             // lblNov10
             // 
@@ -6005,6 +6399,7 @@
             this.lblNov10.Size = new System.Drawing.Size(100, 18);
             this.lblNov10.TabIndex = 382;
             this.lblNov10.Text = "                       ";
+            this.lblNov10.UseWaitCursor = true;
             // 
             // lblNov9
             // 
@@ -6019,6 +6414,7 @@
             this.lblNov9.Size = new System.Drawing.Size(100, 18);
             this.lblNov9.TabIndex = 381;
             this.lblNov9.Text = "                       ";
+            this.lblNov9.UseWaitCursor = true;
             // 
             // lblNov8
             // 
@@ -6033,6 +6429,7 @@
             this.lblNov8.Size = new System.Drawing.Size(100, 18);
             this.lblNov8.TabIndex = 380;
             this.lblNov8.Text = "                       ";
+            this.lblNov8.UseWaitCursor = true;
             // 
             // lblNov28
             // 
@@ -6047,6 +6444,7 @@
             this.lblNov28.Size = new System.Drawing.Size(100, 18);
             this.lblNov28.TabIndex = 379;
             this.lblNov28.Text = "                       ";
+            this.lblNov28.UseWaitCursor = true;
             // 
             // lblNov21
             // 
@@ -6061,6 +6459,7 @@
             this.lblNov21.Size = new System.Drawing.Size(100, 18);
             this.lblNov21.TabIndex = 378;
             this.lblNov21.Text = "                       ";
+            this.lblNov21.UseWaitCursor = true;
             // 
             // lblNov14
             // 
@@ -6075,6 +6474,7 @@
             this.lblNov14.Size = new System.Drawing.Size(100, 18);
             this.lblNov14.TabIndex = 377;
             this.lblNov14.Text = "                       ";
+            this.lblNov14.UseWaitCursor = true;
             // 
             // lblNov7
             // 
@@ -6089,6 +6489,7 @@
             this.lblNov7.Size = new System.Drawing.Size(100, 18);
             this.lblNov7.TabIndex = 376;
             this.lblNov7.Text = "                       ";
+            this.lblNov7.UseWaitCursor = true;
             // 
             // lblNov6
             // 
@@ -6103,6 +6504,7 @@
             this.lblNov6.Size = new System.Drawing.Size(100, 18);
             this.lblNov6.TabIndex = 375;
             this.lblNov6.Text = "                       ";
+            this.lblNov6.UseWaitCursor = true;
             // 
             // lblNov5
             // 
@@ -6117,6 +6519,7 @@
             this.lblNov5.Size = new System.Drawing.Size(100, 18);
             this.lblNov5.TabIndex = 374;
             this.lblNov5.Text = "                       ";
+            this.lblNov5.UseWaitCursor = true;
             // 
             // lblNov4
             // 
@@ -6131,6 +6534,7 @@
             this.lblNov4.Size = new System.Drawing.Size(100, 18);
             this.lblNov4.TabIndex = 373;
             this.lblNov4.Text = "                       ";
+            this.lblNov4.UseWaitCursor = true;
             // 
             // lblNov3
             // 
@@ -6145,6 +6549,7 @@
             this.lblNov3.Size = new System.Drawing.Size(100, 18);
             this.lblNov3.TabIndex = 372;
             this.lblNov3.Text = "                       ";
+            this.lblNov3.UseWaitCursor = true;
             // 
             // lblNov2
             // 
@@ -6159,6 +6564,7 @@
             this.lblNov2.Size = new System.Drawing.Size(100, 18);
             this.lblNov2.TabIndex = 371;
             this.lblNov2.Text = "                       ";
+            this.lblNov2.UseWaitCursor = true;
             // 
             // lblNov1
             // 
@@ -6173,6 +6579,7 @@
             this.lblNov1.Size = new System.Drawing.Size(100, 18);
             this.lblNov1.TabIndex = 370;
             this.lblNov1.Text = "                       ";
+            this.lblNov1.UseWaitCursor = true;
             // 
             // lblDec37
             // 
@@ -6187,6 +6594,7 @@
             this.lblDec37.Size = new System.Drawing.Size(100, 18);
             this.lblDec37.TabIndex = 443;
             this.lblDec37.Text = "                       ";
+            this.lblDec37.UseWaitCursor = true;
             // 
             // lblDec36
             // 
@@ -6201,6 +6609,7 @@
             this.lblDec36.Size = new System.Drawing.Size(100, 18);
             this.lblDec36.TabIndex = 442;
             this.lblDec36.Text = "                       ";
+            this.lblDec36.UseWaitCursor = true;
             // 
             // lblDec34
             // 
@@ -6215,6 +6624,7 @@
             this.lblDec34.Size = new System.Drawing.Size(100, 18);
             this.lblDec34.TabIndex = 441;
             this.lblDec34.Text = "                       ";
+            this.lblDec34.UseWaitCursor = true;
             // 
             // lblDec33
             // 
@@ -6229,6 +6639,7 @@
             this.lblDec33.Size = new System.Drawing.Size(100, 18);
             this.lblDec33.TabIndex = 440;
             this.lblDec33.Text = "                       ";
+            this.lblDec33.UseWaitCursor = true;
             // 
             // lblDec32
             // 
@@ -6243,6 +6654,7 @@
             this.lblDec32.Size = new System.Drawing.Size(100, 18);
             this.lblDec32.TabIndex = 439;
             this.lblDec32.Text = "                       ";
+            this.lblDec32.UseWaitCursor = true;
             // 
             // lblDec31
             // 
@@ -6257,6 +6669,7 @@
             this.lblDec31.Size = new System.Drawing.Size(100, 18);
             this.lblDec31.TabIndex = 438;
             this.lblDec31.Text = "                       ";
+            this.lblDec31.UseWaitCursor = true;
             // 
             // lblDec30
             // 
@@ -6271,6 +6684,7 @@
             this.lblDec30.Size = new System.Drawing.Size(100, 18);
             this.lblDec30.TabIndex = 437;
             this.lblDec30.Text = "                       ";
+            this.lblDec30.UseWaitCursor = true;
             // 
             // lblDec35
             // 
@@ -6285,6 +6699,7 @@
             this.lblDec35.Size = new System.Drawing.Size(100, 18);
             this.lblDec35.TabIndex = 436;
             this.lblDec35.Text = "                       ";
+            this.lblDec35.UseWaitCursor = true;
             // 
             // lblDec29
             // 
@@ -6299,6 +6714,7 @@
             this.lblDec29.Size = new System.Drawing.Size(100, 18);
             this.lblDec29.TabIndex = 435;
             this.lblDec29.Text = "                       ";
+            this.lblDec29.UseWaitCursor = true;
             // 
             // lblDec27
             // 
@@ -6313,6 +6729,7 @@
             this.lblDec27.Size = new System.Drawing.Size(100, 18);
             this.lblDec27.TabIndex = 434;
             this.lblDec27.Text = "                       ";
+            this.lblDec27.UseWaitCursor = true;
             // 
             // lblDec26
             // 
@@ -6327,6 +6744,7 @@
             this.lblDec26.Size = new System.Drawing.Size(100, 18);
             this.lblDec26.TabIndex = 433;
             this.lblDec26.Text = "                       ";
+            this.lblDec26.UseWaitCursor = true;
             // 
             // lblDec25
             // 
@@ -6341,6 +6759,7 @@
             this.lblDec25.Size = new System.Drawing.Size(100, 18);
             this.lblDec25.TabIndex = 432;
             this.lblDec25.Text = "                       ";
+            this.lblDec25.UseWaitCursor = true;
             // 
             // lblDec24
             // 
@@ -6355,6 +6774,7 @@
             this.lblDec24.Size = new System.Drawing.Size(100, 18);
             this.lblDec24.TabIndex = 431;
             this.lblDec24.Text = "                       ";
+            this.lblDec24.UseWaitCursor = true;
             // 
             // lblDec23
             // 
@@ -6369,6 +6789,7 @@
             this.lblDec23.Size = new System.Drawing.Size(100, 18);
             this.lblDec23.TabIndex = 430;
             this.lblDec23.Text = "                       ";
+            this.lblDec23.UseWaitCursor = true;
             // 
             // lblDec22
             // 
@@ -6383,6 +6804,7 @@
             this.lblDec22.Size = new System.Drawing.Size(100, 18);
             this.lblDec22.TabIndex = 429;
             this.lblDec22.Text = "                       ";
+            this.lblDec22.UseWaitCursor = true;
             // 
             // lblDec20
             // 
@@ -6397,6 +6819,7 @@
             this.lblDec20.Size = new System.Drawing.Size(100, 18);
             this.lblDec20.TabIndex = 428;
             this.lblDec20.Text = "                       ";
+            this.lblDec20.UseWaitCursor = true;
             // 
             // lblDec19
             // 
@@ -6411,6 +6834,7 @@
             this.lblDec19.Size = new System.Drawing.Size(100, 18);
             this.lblDec19.TabIndex = 427;
             this.lblDec19.Text = "                       ";
+            this.lblDec19.UseWaitCursor = true;
             // 
             // lblDec17
             // 
@@ -6425,6 +6849,7 @@
             this.lblDec17.Size = new System.Drawing.Size(100, 18);
             this.lblDec17.TabIndex = 426;
             this.lblDec17.Text = "                       ";
+            this.lblDec17.UseWaitCursor = true;
             // 
             // lblDec18
             // 
@@ -6439,6 +6864,7 @@
             this.lblDec18.Size = new System.Drawing.Size(100, 18);
             this.lblDec18.TabIndex = 425;
             this.lblDec18.Text = "                       ";
+            this.lblDec18.UseWaitCursor = true;
             // 
             // lblDec16
             // 
@@ -6453,6 +6879,7 @@
             this.lblDec16.Size = new System.Drawing.Size(100, 18);
             this.lblDec16.TabIndex = 424;
             this.lblDec16.Text = "                       ";
+            this.lblDec16.UseWaitCursor = true;
             // 
             // lblDec15
             // 
@@ -6467,6 +6894,7 @@
             this.lblDec15.Size = new System.Drawing.Size(100, 18);
             this.lblDec15.TabIndex = 423;
             this.lblDec15.Text = "                       ";
+            this.lblDec15.UseWaitCursor = true;
             // 
             // lblDec13
             // 
@@ -6481,6 +6909,7 @@
             this.lblDec13.Size = new System.Drawing.Size(100, 18);
             this.lblDec13.TabIndex = 422;
             this.lblDec13.Text = "                       ";
+            this.lblDec13.UseWaitCursor = true;
             // 
             // lblDec12
             // 
@@ -6495,6 +6924,7 @@
             this.lblDec12.Size = new System.Drawing.Size(100, 18);
             this.lblDec12.TabIndex = 421;
             this.lblDec12.Text = "                       ";
+            this.lblDec12.UseWaitCursor = true;
             // 
             // lblDec11
             // 
@@ -6509,6 +6939,7 @@
             this.lblDec11.Size = new System.Drawing.Size(100, 18);
             this.lblDec11.TabIndex = 420;
             this.lblDec11.Text = "                       ";
+            this.lblDec11.UseWaitCursor = true;
             // 
             // lblDec10
             // 
@@ -6523,6 +6954,7 @@
             this.lblDec10.Size = new System.Drawing.Size(100, 18);
             this.lblDec10.TabIndex = 419;
             this.lblDec10.Text = "                       ";
+            this.lblDec10.UseWaitCursor = true;
             // 
             // lblDec9
             // 
@@ -6537,6 +6969,7 @@
             this.lblDec9.Size = new System.Drawing.Size(100, 18);
             this.lblDec9.TabIndex = 418;
             this.lblDec9.Text = "                       ";
+            this.lblDec9.UseWaitCursor = true;
             // 
             // lblDec8
             // 
@@ -6551,6 +6984,7 @@
             this.lblDec8.Size = new System.Drawing.Size(100, 18);
             this.lblDec8.TabIndex = 417;
             this.lblDec8.Text = "                       ";
+            this.lblDec8.UseWaitCursor = true;
             // 
             // lblDec28
             // 
@@ -6565,6 +6999,7 @@
             this.lblDec28.Size = new System.Drawing.Size(100, 18);
             this.lblDec28.TabIndex = 416;
             this.lblDec28.Text = "                       ";
+            this.lblDec28.UseWaitCursor = true;
             // 
             // lblDec21
             // 
@@ -6579,6 +7014,7 @@
             this.lblDec21.Size = new System.Drawing.Size(100, 18);
             this.lblDec21.TabIndex = 415;
             this.lblDec21.Text = "                       ";
+            this.lblDec21.UseWaitCursor = true;
             // 
             // lblDec14
             // 
@@ -6593,6 +7029,7 @@
             this.lblDec14.Size = new System.Drawing.Size(100, 18);
             this.lblDec14.TabIndex = 414;
             this.lblDec14.Text = "                       ";
+            this.lblDec14.UseWaitCursor = true;
             // 
             // lblDec7
             // 
@@ -6607,6 +7044,7 @@
             this.lblDec7.Size = new System.Drawing.Size(100, 18);
             this.lblDec7.TabIndex = 413;
             this.lblDec7.Text = "                       ";
+            this.lblDec7.UseWaitCursor = true;
             // 
             // lblDec6
             // 
@@ -6621,6 +7059,7 @@
             this.lblDec6.Size = new System.Drawing.Size(100, 18);
             this.lblDec6.TabIndex = 412;
             this.lblDec6.Text = "                       ";
+            this.lblDec6.UseWaitCursor = true;
             // 
             // lblDec5
             // 
@@ -6635,6 +7074,7 @@
             this.lblDec5.Size = new System.Drawing.Size(100, 18);
             this.lblDec5.TabIndex = 411;
             this.lblDec5.Text = "                       ";
+            this.lblDec5.UseWaitCursor = true;
             // 
             // lblDec4
             // 
@@ -6649,6 +7089,7 @@
             this.lblDec4.Size = new System.Drawing.Size(100, 18);
             this.lblDec4.TabIndex = 410;
             this.lblDec4.Text = "                       ";
+            this.lblDec4.UseWaitCursor = true;
             // 
             // lblDec3
             // 
@@ -6663,6 +7104,7 @@
             this.lblDec3.Size = new System.Drawing.Size(100, 18);
             this.lblDec3.TabIndex = 409;
             this.lblDec3.Text = "                       ";
+            this.lblDec3.UseWaitCursor = true;
             // 
             // lblDec2
             // 
@@ -6677,6 +7119,7 @@
             this.lblDec2.Size = new System.Drawing.Size(100, 18);
             this.lblDec2.TabIndex = 408;
             this.lblDec2.Text = "                       ";
+            this.lblDec2.UseWaitCursor = true;
             // 
             // lblDec1
             // 
@@ -6691,6 +7134,7 @@
             this.lblDec1.Size = new System.Drawing.Size(100, 18);
             this.lblDec1.TabIndex = 407;
             this.lblDec1.Text = "                       ";
+            this.lblDec1.UseWaitCursor = true;
             // 
             // Calendar
             // 
@@ -6849,14 +7293,14 @@
             this.Controls.Add(this.lblSep3);
             this.Controls.Add(this.lblSep2);
             this.Controls.Add(this.lblSep1);
-            this.Controls.Add(this.lblAug38);
             this.Controls.Add(this.lblAug37);
-            this.Controls.Add(this.lblAug35);
+            this.Controls.Add(this.lblAug36);
             this.Controls.Add(this.lblAug34);
             this.Controls.Add(this.lblAug33);
+            this.Controls.Add(this.lblAug32);
             this.Controls.Add(this.lblAug31);
             this.Controls.Add(this.lblAug30);
-            this.Controls.Add(this.lblAug36);
+            this.Controls.Add(this.lblAug35);
             this.Controls.Add(this.lblAug29);
             this.Controls.Add(this.lblAug27);
             this.Controls.Add(this.lblAug26);
@@ -7147,6 +7591,7 @@
             this.Controls.Add(this.lblJan1);
             this.Name = "Calendar";
             this.Size = new System.Drawing.Size(1370, 931);
+            this.UseWaitCursor = true;
             this.Load += new System.EventHandler(this.Calendar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -7414,14 +7859,14 @@
         private System.Windows.Forms.Label lblJul3;
         private System.Windows.Forms.Label lblJul2;
         private System.Windows.Forms.Label lblJul1;
-        private System.Windows.Forms.Label lblAug38;
         private System.Windows.Forms.Label lblAug37;
-        private System.Windows.Forms.Label lblAug35;
+        private System.Windows.Forms.Label lblAug36;
         private System.Windows.Forms.Label lblAug34;
         private System.Windows.Forms.Label lblAug33;
+        private System.Windows.Forms.Label lblAug32;
         private System.Windows.Forms.Label lblAug31;
         private System.Windows.Forms.Label lblAug30;
-        private System.Windows.Forms.Label lblAug36;
+        private System.Windows.Forms.Label lblAug35;
         private System.Windows.Forms.Label lblAug29;
         private System.Windows.Forms.Label lblAug27;
         private System.Windows.Forms.Label lblAug26;
