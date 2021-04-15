@@ -12,15 +12,14 @@ namespace CalendarUserControl
 {
     public partial class Calendar : UserControl
     {
-        public List<Label> lstDates = new List<Label>();
+        public List<CheckBox> lstDates = new List<CheckBox>();
         public Calendar()
         {
             InitializeComponent();
         }
         private void LabelOnClick(object sender, EventArgs e)
         {
-            Label lbl = (Label)sender;
-            MessageBox.Show(lbl.Name);
+
         }
 
         private void Calendar_Load(object sender, EventArgs e)

@@ -7,15 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UserControlCalendar.Model;
 
 namespace UserControlCalendar
 {
     public partial class MainForm : Form
     {
         List<Label> lstDates = new List<Label>();
+        List<Employee> employees = new List<Employee>();
         public MainForm()
         {
             InitializeComponent();
+            calendar1.UseWaitCursor = false;
+            calendar1.Cursor = Cursors.Default;
         }
 
         private void MainForm_Load(object sender, EventArgs e)
@@ -47,45 +51,45 @@ namespace UserControlCalendar
 
         private void LoadCalendarDate(string year)
         {
-            List<Label> lstDates = new List<Label>(calendar1.lstDates);
+            List<CheckBox> lstDates = new List<CheckBox>(calendar1.lstDates);
             for (int i = 0; i < lstDates.Count; i++)
             {
                 lstDates[i].Text = "                        ";
             }
-            List<Label> lblJanuar = lstDates.Take(37).ToList();
+            List<CheckBox> lblJanuar = lstDates.Take(37).ToList();
             lstDates.RemoveRange(0, 37);
             
-            List<Label> lblFeb = lstDates.Take(37).ToList();
+            List<CheckBox> lblFeb = lstDates.Take(37).ToList();
             lstDates.RemoveRange(0, 37);
 
-            List<Label> lblMar = lstDates.Take(37).ToList();
+            List<CheckBox> lblMar = lstDates.Take(37).ToList();
             lstDates.RemoveRange(0, 37);
 
-            List<Label> lblApril = lstDates.Take(37).ToList();
+            List<CheckBox> lblApril = lstDates.Take(37).ToList();
             lstDates.RemoveRange(0, 37);
 
-            List<Label> lblMay = lstDates.Take(37).ToList();
+            List<CheckBox> lblMay = lstDates.Take(37).ToList();
             lstDates.RemoveRange(0, 37);
 
-            List<Label> lblJun = lstDates.Take(37).ToList();
+            List<CheckBox> lblJun = lstDates.Take(37).ToList();
             lstDates.RemoveRange(0, 37);
 
-            List<Label> lblJul = lstDates.Take(37).ToList();
+            List<CheckBox> lblJul = lstDates.Take(37).ToList();
             lstDates.RemoveRange(0, 37);
 
-            List<Label> lblAug = lstDates.Take(37).ToList();
+            List<CheckBox> lblAug = lstDates.Take(37).ToList();
             lstDates.RemoveRange(0, 37);
 
-            List<Label> lblSep = lstDates.Take(37).ToList();
+            List<CheckBox> lblSep = lstDates.Take(37).ToList();
             lstDates.RemoveRange(0, 37);
 
-            List<Label> lblOct = lstDates.Take(37).ToList();
+            List<CheckBox> lblOct = lstDates.Take(37).ToList();
             lstDates.RemoveRange(0, 37);
 
-            List<Label> lblNov = lstDates.Take(37).ToList();
+            List<CheckBox> lblNov = lstDates.Take(37).ToList();
             lstDates.RemoveRange(0, 37);
 
-            List<Label> lblDec = lstDates.Take(37).ToList();
+            List<CheckBox> lblDec = lstDates.Take(37).ToList();
             lstDates.RemoveRange(0, 37);
 
             int yearParsed = int.Parse(year);
@@ -118,7 +122,7 @@ namespace UserControlCalendar
                 return false;
         }
 
-        private void PopulateMonth(List<Label> lstLabels, string year,int month,int daysOfMonth) {
+        private void PopulateMonth(List<CheckBox> lstLabels, string year,int month,int daysOfMonth) {
             int yearParsed = int.Parse(year);
             DateTime FirstDayOfYear = new DateTime(yearParsed, month, 1);
             switch (FirstDayOfYear.DayOfWeek.ToString())
@@ -147,11 +151,11 @@ namespace UserControlCalendar
             PopulateDates(lstLabels, daysOfMonth);
         }
 
-        private void PopulateDates(List<Label> lstLabels, int daysOfMonth)
+        private void PopulateDates(List<CheckBox> lstLabels, int daysOfMonth)
         {
             for (int i = 0; i < daysOfMonth; i++)
             {
-                lstLabels[i].Text = "                 " + (i + 1).ToString() + "       ";
+                lstLabels[i].Text =  (i + 1).ToString() + "                        ";
             }
         }
 
@@ -162,6 +166,12 @@ namespace UserControlCalendar
             {
                 LoadCalendarDate(yearSelected);
             }
+        }
+
+        private void btnLoadEmployeeData_Click(object sender, EventArgs e)
+        {
+            employees = Employee.GetEmployees();
+
         }
     }
 }
