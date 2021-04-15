@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,13 +14,31 @@ namespace UserControlCalendar
 {
     public partial class GridView : Form
     {
+        ContextMenuStrip menuStrip = new ContextMenuStrip();
+        List<ShiftDetail> shiftDetails = new List<ShiftDetail>();
+        DataGridViewSelectedCellCollection selectedCellCollection;
+        private Shift Shift = Shift.Shift0;
         public GridView()
         {
             InitializeComponent();
+
         }
 
         private void GridView_Load(object sender, EventArgs e)
         {
+            ToolStripMenuItem menuItem = new ToolStripMenuItem("Shift-1");
+            menuItem.Click += new EventHandler(menuItem_Click);
+            menuItem.Name = "Shift-1";
+            menuStrip.Items.Add(menuItem);
+            menuItem = new ToolStripMenuItem("Shift-2");
+            menuItem.Click += new EventHandler(menuItem_Click);
+            menuItem.Name = "Shift-2";
+            menuStrip.Items.Add(menuItem);
+            menuItem = new ToolStripMenuItem("Shift-3");
+            menuItem.Click += new EventHandler(menuItem_Click);
+            menuItem.Name = "Shift-3";
+            menuStrip.Items.Add(menuItem);
+
             for (int i = 0; i < 85; i++)
             {
                 int year = 2015 + i;
@@ -47,7 +66,7 @@ namespace UserControlCalendar
 
         private List<GridEntity> GetGridEntities(string year)
         {
-            List<GridEntity> gridEntities =  PopulateMonth(year);
+            List<GridEntity> gridEntities = PopulateMonth(year);
             return gridEntities;
         }
 
@@ -66,7 +85,7 @@ namespace UserControlCalendar
 
         private List<GridEntity> PopulateMonth(string year)
         {
-            
+
             int yearParsed = int.Parse(year);
             DateTime FirstDayOfYear = new DateTime(yearParsed, 1, 1);
             List<int?> jan = GetDates(year, 1, 31);
@@ -81,7 +100,8 @@ namespace UserControlCalendar
             List<int?> oct = GetDates(year, 10, 31);
             List<int?> nov = GetDates(year, 11, 30);
             List<int?> dec = GetDates(year, 12, 31);
-            GridMonth gm = new GridMonth {
+            GridMonth gm = new GridMonth
+            {
                 January = jan,
                 Feburary = feb,
                 March = mar,
@@ -143,6 +163,94 @@ namespace UserControlCalendar
 
             return dates;
         }
-        
+
+
+        private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
+        {
+            switch (e.Button)
+            {
+                case MouseButtons.Right:
+                    {
+                        DataGridView currentDG = (DataGridView)sender;
+                        selectedCellCollection = currentDG.SelectedCells;
+                        menuStrip.Show(this, new Point(e.X, e.Y));//places the menu at the pointer position
+                    }
+                    break;
+            }
+
+        }
+
+        private void menuItem_Click(object sender, EventArgs e)
+        {
+            ToolStripItem menuItem = (ToolStripItem)sender;
+            if (menuItem.Name == "Shift-1")
+            {
+                Shift = Shift.Shift1;
+            }
+            if (menuItem.Name == "Shift-2")
+            {
+                Shift = Shift.Shift2;
+            }
+            if (menuItem.Name == "Shift-3")
+            {
+                Shift = Shift.Shift3;
+            }
+
+            for (int i = 0; i < selectedCellCollection.Count; i++)
+            {
+                int date = 0;
+                if (selectedCellCollection[i].Value != null)
+                {
+                    int.TryParse(selectedCellCollection[i].Value.ToString(), out date);
+                    int month = selectedCellCollection[i].ColumnIndex;
+                    int employeeID = int.Parse(cmbEmployees.SelectedItem.ToString().Split('-')[0].ToString());
+                    shiftDetails.Add(
+                    new ShiftDetail
+                    {
+                        EmployeeID = employeeID,
+                        Month = month,
+                        Date = date,
+                        Shift = Shift
+                    }
+                    );
+
+                }
+
+            }
+
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            WriteFile();
+            shiftDetails = new List<ShiftDetail>();
+            Shift = Shift.Shift0;
+            MessageBox.Show("Data has been saved.");
+        }
+
+        private void WriteFile()
+        {
+            try
+            {
+                //Pass the filepath and filename to the StreamWriter Constructor
+                StreamWriter sw = new StreamWriter("D:\\Test.txt");
+                //Write a line of text
+                for (int i = 0; i < shiftDetails.Count; i++)
+                {
+                    sw.WriteLine(shiftDetails[i].ToString());
+                }
+
+                //Close the file
+                sw.Close();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Exception: " + e.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Executing finally block.");
+            }
+        }
     }
 }

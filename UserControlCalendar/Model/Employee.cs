@@ -26,6 +26,7 @@ namespace UserControlCalendar.Model
 
     public enum Shift
     {
+        Shift0,
         Shift1,
         Shift2,
         Shift3

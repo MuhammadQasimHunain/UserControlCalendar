@@ -86,4 +86,17 @@ namespace UserControlCalendar.Model
         public List<int?> November { get; set; }
         public List<int?> December { get; set; }
     }
+
+    public class ShiftDetail
+    {
+        public int EmployeeID { get; set; }
+        public Shift Shift { get; set; }
+        public int Month { get; set; }
+        public int Date { get; set; }
+
+        public override string ToString()
+        {
+            return string.Format("EmpID: {0} Shift: {1} Month: {2} Date: {3}", EmployeeID, Shift.ToString(), Month, Date); 
+        }
+    }
 }
