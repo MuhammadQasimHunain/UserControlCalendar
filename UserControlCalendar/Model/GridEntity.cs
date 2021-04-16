@@ -93,10 +93,13 @@ namespace UserControlCalendar.Model
         public Shift Shift { get; set; }
         public int Month { get; set; }
         public int Date { get; set; }
+        public int Year { get; set; }
 
-        public override string ToString()
+
+        public string GetStringValue(int year)
         {
-            return string.Format("EmpID: {0} Shift: {1} Month: {2} Date: {3}", EmployeeID, Shift.ToString(), Month, Date); 
+            DateTime dateTime = new DateTime(year, Month, Date);
+            return EmployeeID + "\t" + Shift.ToString() + "             "+ dateTime.ToShortDateString();
         }
     }
 }

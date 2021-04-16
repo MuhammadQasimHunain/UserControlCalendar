@@ -61,6 +61,14 @@ namespace UserControlCalendar
                 List<GridEntity> gridEntities = GetGridEntities(yearSelected);
                 dataGridView1.DataSource = gridEntities;
             }
+            dataGridView1.ColumnHeadersDefaultCellStyle = new DataGridViewCellStyle() { BackColor = Color.LightSkyBlue };
+            dataGridView1.Columns[0].DefaultCellStyle = new DataGridViewCellStyle() { BackColor = Color.LightCyan };
+            dataGridView1.Rows[6].DefaultCellStyle = new DataGridViewCellStyle() { BackColor = Color.LightCyan };
+            dataGridView1.Rows[13].DefaultCellStyle = new DataGridViewCellStyle() { BackColor = Color.LightCyan };
+            dataGridView1.Rows[20].DefaultCellStyle = new DataGridViewCellStyle() { BackColor = Color.LightCyan };
+            dataGridView1.Rows[27].DefaultCellStyle = new DataGridViewCellStyle() { BackColor = Color.LightCyan };
+            dataGridView1.Rows[34].DefaultCellStyle = new DataGridViewCellStyle() { BackColor = Color.LightCyan };
+            
         }
 
 
@@ -222,22 +230,25 @@ namespace UserControlCalendar
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            WriteFile();
+            string yearSelected = this.cmbYear.SelectedItem.ToString().Replace("Year-", string.Empty);
+            int year = int.Parse(yearSelected);
+            WriteFile(year);
             shiftDetails = new List<ShiftDetail>();
             Shift = Shift.Shift0;
             MessageBox.Show("Data has been saved.");
         }
 
-        private void WriteFile()
+        private void WriteFile(int year)
         {
             try
             {
                 //Pass the filepath and filename to the StreamWriter Constructor
                 StreamWriter sw = new StreamWriter("D:\\Test.txt");
                 //Write a line of text
+                sw.WriteLine(string.Format("EmpID,\tShiftID,           Date"));
                 for (int i = 0; i < shiftDetails.Count; i++)
                 {
-                    sw.WriteLine(shiftDetails[i].ToString());
+                    sw.WriteLine(shiftDetails[i].GetStringValue(year));
                 }
 
                 //Close the file
