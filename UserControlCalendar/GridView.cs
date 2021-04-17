@@ -26,17 +26,20 @@ namespace UserControlCalendar
 
         private void GridView_Load(object sender, EventArgs e)
         {
-            ToolStripMenuItem menuItem = new ToolStripMenuItem("Shift-1");
+            ToolStripMenuItem menuItem = new ToolStripMenuItem("Morning");
             menuItem.Click += new EventHandler(menuItem_Click);
             menuItem.Name = "Shift-1";
+            menuItem.BackColor = Color.Green;
             menuStrip.Items.Add(menuItem);
-            menuItem = new ToolStripMenuItem("Shift-2");
+            menuItem = new ToolStripMenuItem("Evening");
             menuItem.Click += new EventHandler(menuItem_Click);
             menuItem.Name = "Shift-2";
+            menuItem.BackColor = Color.GreenYellow;
             menuStrip.Items.Add(menuItem);
-            menuItem = new ToolStripMenuItem("Shift-3");
+            menuItem = new ToolStripMenuItem("Night");
             menuItem.Click += new EventHandler(menuItem_Click);
             menuItem.Name = "Shift-3";
+            menuItem.BackColor = Color.Blue;
             menuStrip.Items.Add(menuItem);
 
             for (int i = 0; i < 85; i++)
@@ -209,9 +212,11 @@ namespace UserControlCalendar
                 int date = 0;
                 if (selectedCellCollection[i].Value != null)
                 {
+                    int cellRowID = selectedCellCollection[i].RowIndex;
                     int.TryParse(selectedCellCollection[i].Value.ToString(), out date);
                     int month = selectedCellCollection[i].ColumnIndex;
                     int employeeID = int.Parse(cmbEmployees.SelectedItem.ToString().Split('-')[0].ToString());
+                    dataGridView1.Rows[cellRowID].Cells[month].Style.BackColor = GetColorOnShift(Shift);
                     shiftDetails.Add(
                     new ShiftDetail
                     {
@@ -226,6 +231,24 @@ namespace UserControlCalendar
 
             }
 
+        }
+
+        private Color GetColorOnShift(Shift shift)
+        {
+            switch (shift)
+            {
+                case Shift.Shift0:
+                    break;
+                case Shift.Shift1:
+                    return Color.Green;
+                case Shift.Shift2:
+                    return Color.GreenYellow;
+                case Shift.Shift3:
+                    return Color.Blue;
+                default:
+                    return Color.White;
+            }
+            return Color.White;
         }
 
         private void btnSave_Click(object sender, EventArgs e)
